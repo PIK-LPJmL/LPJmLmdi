@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Write an object of class 'LPJinput' to CLM files</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for WriteLPJinput {LPJmLmdi}"><tr><td>WriteLPJinput {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Write an object of class 'LPJinput' to CLM files</h2>
+
+<h3>Description</h3>
+
+<p>The function writes CLM input files for LPJ. </p>
+
+
+<h3>Usage</h3>
+
+<pre>WriteLPJinput(lpjinput, files = NULL, path.lpj = NULL, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>lpjinput</code></td>
+<td>
+<p>Object of class 'LPJinput' to be written.</p>
+</td></tr>
+<tr valign="top"><td><code>files</code></td>
+<td>
+<p>names of the output CLM or binary files. </p>
+</td></tr>
+<tr valign="top"><td><code>path.lpj</code></td>
+<td>
+<p>path to LPJ installation</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns TRUE if the CLM file was created.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="WriteLPJinput.html">WriteLPJinput</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# lpjinput &lt;- ReadLPJinput("cru_ts_3.20.1901.2011.tmp.clm", grid=cbind(c(136.75, 137.25, 160.75,168.75), c(45.25, 65.25, 68.75, 63.75)))
+# str(lpjinput)
+# WriteLPJinput(lpjinput)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

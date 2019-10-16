@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Convert soil texture to a LPJ soilcode</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Texture2Soilcode {LPJmLmdi}"><tr><td>Texture2Soilcode {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Convert soil texture to a LPJ soilcode</h2>
+
+<h3>Description</h3>
+
+<p>The function takes fractions/percentages of sand, silt and clay and returns the correspondign LPJ soil code. The USDA soil classification is used. The function requires the package &quot;soiltexture&quot;.</p>
+
+
+<h3>Usage</h3>
+
+<pre>Texture2Soilcode(sand, silt, clay, lpj.soilcodes = c("Cl", "SiCl", 
+    "SaCl", "ClLo", "SiClLo", "SaClLo", "Lo", "SiLo", "SaLo", 
+    "Si", "LoSa", "Sa"), plot = TRUE, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>sand</code></td>
+<td>
+<p>percentage of sand</p>
+</td></tr>
+<tr valign="top"><td><code>silt</code></td>
+<td>
+<p>percentage of silt</p>
+</td></tr>
+<tr valign="top"><td><code>clay</code></td>
+<td>
+<p>percentage of clay</p>
+</td></tr>
+<tr valign="top"><td><code>lpj.soilcodes</code></td>
+<td>
+<p>LPJ soil codes</p>
+</td></tr>
+<tr valign="top"><td><code>plot</code></td>
+<td>
+<p>plot soil triangle?</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Further arguments (currently not used).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns the LPJ soilcode</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ReadBIN.html">ReadBIN</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# data.sp &lt;- SpatialPointsDataFrame(lpjinput$grid, as.data.frame(data.m))
+# WriteBIN(data.sp, file="data.bin")	
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

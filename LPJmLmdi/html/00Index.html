@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Model-Data Integration for the LPJmL Dynamic Global Vegetation
+Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Model-Data Integration for the LPJmL Dynamic Global Vegetation
+Model
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;LPJmLmdi&rsquo; version 1.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="LPJmLmdi-package.html">LPJmLmdi-package</a></td>
+<td>Model-Data Integration for the LPJmL Dynamic Global Vegetation Model</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCBoBS.html">AggFPCBoBS</a></td>
+<td>Temporal aggregation for BoBS PFT: get BoBS from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCBoNE.html">AggFPCBoNE</a></td>
+<td>Temporal aggregation for BoNE PFT: get BoNE from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCBoNS.html">AggFPCBoNS</a></td>
+<td>Temporal aggregation for BoNS PFT: get BoNS from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCPoH.html">AggFPCPoH</a></td>
+<td>Temporal aggregation for PoH PFT: get PoH from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTeBE.html">AggFPCTeBE</a></td>
+<td>Temporal aggregation for PFTs: get TeBE from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTeBS.html">AggFPCTeBS</a></td>
+<td>Temporal aggregation for PFTs: get TeBS from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTeH.html">AggFPCTeH</a></td>
+<td>Temporal aggregation for PFTs: get TeH from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTeNE.html">AggFPCTeNE</a></td>
+<td>Temporal aggregation for PFTs: get TeNE from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTrBE.html">AggFPCTrBE</a></td>
+<td>Temporal aggregation for PFTs: get TrBE from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggFPCTrBR.html">AggFPCTrBR</a></td>
+<td>Temporal aggregation for PFTs: get TrBR from vector of all PFTs, average over years</td></tr>
+<tr><td style="width: 25%;"><a href="AggMaxNULL.html">AggMaxNULL</a></td>
+<td>Temporal aggregation: aggregate by using annual maximum</td></tr>
+<tr><td style="width: 25%;"><a href="AggMeanMean.html">AggMeanMean</a></td>
+<td>Temporal aggregation: first mean, then mean = mean over all values</td></tr>
+<tr><td style="width: 25%;"><a href="AggMeanNULL.html">AggMeanNULL</a></td>
+<td>Temporal aggregation: first mean, then nothing = mean per group</td></tr>
+<tr><td style="width: 25%;"><a href="AggMSC.html">AggMSC</a></td>
+<td>Temporal aggregation: mean seasonal cycle</td></tr>
+<tr><td style="width: 25%;"><a href="AggNULLMean.html">AggNULLMean</a></td>
+<td>Temporal aggregation: mean over all values</td></tr>
+<tr><td style="width: 25%;"><a href="AggQ09NULL.html">AggQ09NULL</a></td>
+<td>Temporal aggregation: aggregate by using quantile with prob=0.9</td></tr>
+<tr><td style="width: 25%;"><a href="AggSumMean.html">AggSumMean</a></td>
+<td>Temporal aggregation: first sum, then mean</td></tr>
+<tr><td style="width: 25%;"><a href="AggSumNULL.html">AggSumNULL</a></td>
+<td>Temporal aggregation: first sum, then nothing = sum per group</td></tr>
+<tr><td style="width: 25%;"><a href="AllEqual.html">AllEqual</a></td>
+<td>Check if all values in a vector are the same</td></tr>
+<tr><td style="width: 25%;"><a href="BarplotCost.html">BarplotCost</a></td>
+<td>plot a barplot of the cost change from prior to best parameter set</td></tr>
+<tr><td style="width: 25%;"><a href="ChangeParamFile.html">ChangeParamFile</a></td>
+<td>Change parameters in a parameter file</td></tr>
+<tr><td style="width: 25%;"><a href="ChangeSoilCodeFile.html">ChangeSoilCodeFile</a></td>
+<td>Change soil code in LPJ soil code file</td></tr>
+<tr><td style="width: 25%;"><a href="CheckLPJpar.html">CheckLPJpar</a></td>
+<td>Checks LPJ parameters 'LPJpar'</td></tr>
+<tr><td style="width: 25%;"><a href="CheckMemoryUsage.html">CheckMemoryUsage</a></td>
+<td>Check usage of memory by R objects</td></tr>
+<tr><td style="width: 25%;"><a href="CombineRescueFiles.html">CombineRescueFiles</a></td>
+<td>Combine single rescue files into one rescue file</td></tr>
+<tr><td style="width: 25%;"><a href="CorrelationMatrixS.html">CorrelationMatrixS</a></td>
+<td>plot a correlation matrix</td></tr>
+<tr><td style="width: 25%;"><a href="CostMDS.KGE.html">CostMDS.KGE</a></td>
+<td>Cost function for multiple data streams based on Kling-Gupta efficiency</td></tr>
+<tr><td style="width: 25%;"><a href="CostMDS.KGEw.html">CostMDS.KGEw</a></td>
+<td>Cost function for multiple data streams based on a weighted Kling-Gupta efficiency</td></tr>
+<tr><td style="width: 25%;"><a href="CostMDS.SSE.html">CostMDS.SSE</a></td>
+<td>Cost function for multiple data streams based on SSE</td></tr>
+<tr><td style="width: 25%;"><a href="CreateRestartFromRescue.html">CreateRestartFromRescue</a></td>
+<td>Create a *.pro file from binary rescue files to restart optimization</td></tr>
+<tr><td style="width: 25%;"><a href="DefaultParL.html">DefaultParL</a></td>
+<td>default 'par' settings for plots</td></tr>
+<tr><td style="width: 25%;"><a href="Df2optim.html">Df2optim</a></td>
+<td>Convert a data.frame to a 'optim' list</td></tr>
+<tr><td style="width: 25%;"><a href="EstOptimUse.html">EstOptimUse</a></td>
+<td>Estimate optimal number of jobs given a number of cluster nodes</td></tr>
+<tr><td style="width: 25%;"><a href="FileExistsWait.html">FileExistsWait</a></td>
+<td>Iterative checking and waiting for a file.</td></tr>
+<tr><td style="width: 25%;"><a href="GridProperties.html">GridProperties</a></td>
+<td>Derive grid properties from an object of class 'LPJfiles'</td></tr>
+<tr><td style="width: 25%;"><a href="InfoCLM.html">InfoCLM</a></td>
+<td>Returns information about a CLM file</td></tr>
+<tr><td style="width: 25%;"><a href="InfoLPJ.html">InfoLPJ</a></td>
+<td>Information about a LPJmL binary file</td></tr>
+<tr><td style="width: 25%;"><a href="IntegrationData.html">IntegrationData</a></td>
+<td>Create an object of class 'IntegrationData'</td></tr>
+<tr><td style="width: 25%;"><a href="IntegrationDataset.html">IntegrationDataset</a></td>
+<td>Create an object of class 'IntegrationDataset'</td></tr>
+<tr><td style="width: 25%;"><a href="LE2ET.html">LE2ET</a></td>
+<td>Compute evapotranspiration (ET) from latent heat (LE).</td></tr>
+<tr><td style="width: 25%;"><a href="LPJfiles.html">LPJfiles</a></td>
+<td>Create an object of class 'LPJfiles'</td></tr>
+<tr><td style="width: 25%;"><a href="LPJmLmdi-package.html">LPJmLmdi</a></td>
+<td>Model-Data Integration for the LPJmL Dynamic Global Vegetation Model</td></tr>
+<tr><td style="width: 25%;"><a href="LPJpar.html">LPJpar</a></td>
+<td>Create an object of class 'LPJpar'</td></tr>
+<tr><td style="width: 25%;"><a href="LWin2LWnet.html">LWin2LWnet</a></td>
+<td>Compute long-wave net radiation from long-wave incoming radiation and temperature.</td></tr>
+<tr><td style="width: 25%;"><a href="ObjFct.html">ObjFct</a></td>
+<td>Objective functions</td></tr>
+<tr><td style="width: 25%;"><a href="OptimizeLPJgenoud.html">OptimizeLPJgenoud</a></td>
+<td>Optimize LPJ using the GENOUD optimizer (genetic optimization using derivatives)</td></tr>
+<tr><td style="width: 25%;"><a href="plot.IntegrationData.html">plot.IntegrationData</a></td>
+<td>Plot an object of class IntegrationData</td></tr>
+<tr><td style="width: 25%;"><a href="plot.LPJpar.html">plot.LPJpar</a></td>
+<td>Plot parameters in 'LPJpar' object.</td></tr>
+<tr><td style="width: 25%;"><a href="plot.LPJsim.html">plot.LPJsim</a></td>
+<td>Plots a LPJsim object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.rescue.html">plot.rescue</a></td>
+<td>plot an object of class "rescue" / monitor OptimizeLPJgenoud</td></tr>
+<tr><td style="width: 25%;"><a href="PlotPar.html">PlotPar</a></td>
+<td>Plot parameter vs. cost</td></tr>
+<tr><td style="width: 25%;"><a href="PlotParPCA.html">PlotParPCA</a></td>
+<td>plot a PCA of optimized parameters</td></tr>
+<tr><td style="width: 25%;"><a href="PlotWorld110.html">PlotWorld110</a></td>
+<td>Plot a world map based on 1:110Mio data</td></tr>
+<tr><td style="width: 25%;"><a href="PrepareRestartFiles.html">PrepareRestartFiles</a></td>
+<td>Prepare restart files to restart OptimizeLPJgenoud</td></tr>
+<tr><td style="width: 25%;"><a href="print.ObjFct.html">print.ObjFct</a></td>
+<td>print objective functions</td></tr>
+<tr><td style="width: 25%;"><a href="ReadBIN.html">ReadBIN</a></td>
+<td>Read simple binary files without header Read a CLM file to a SpatialPixelsDataFrame</td></tr>
+<tr><td style="width: 25%;"><a href="ReadCLM.html">ReadCLM</a></td>
+<td>Read a CLM file to a SpatialPixelsDataFrame</td></tr>
+<tr><td style="width: 25%;"><a href="ReadGrid.html">ReadGrid</a></td>
+<td>Reads a binary input data grid file.</td></tr>
+<tr><td style="width: 25%;"><a href="ReadLPJ.html">ReadLPJ</a></td>
+<td>Read a LPJ binary file</td></tr>
+<tr><td style="width: 25%;"><a href="ReadLPJ2IntegrationData.html">ReadLPJ2IntegrationData</a></td>
+<td>Read LPJ model results into an of class IntegrationData</td></tr>
+<tr><td style="width: 25%;"><a href="ReadLPJ2ts.html">ReadLPJ2ts</a></td>
+<td>Read a LPJ binary file and returns a spatial averaged time series</td></tr>
+<tr><td style="width: 25%;"><a href="ReadLPJinput.html">ReadLPJinput</a></td>
+<td>Read and subset CLM files to LPJinput objects</td></tr>
+<tr><td style="width: 25%;"><a href="ReadLPJsim.html">ReadLPJsim</a></td>
+<td>Read a LPJ simulation results</td></tr>
+<tr><td style="width: 25%;"><a href="ReadOutputvars.html">ReadOutputvars</a></td>
+<td>Read 'outputvars.par' to get information about LPJmL output</td></tr>
+<tr><td style="width: 25%;"><a href="ReadPRO.html">ReadPRO</a></td>
+<td>Read *.pro files as produced from GENOUD</td></tr>
+<tr><td style="width: 25%;"><a href="Rescue2Df.html">Rescue2Df</a></td>
+<td>Convert a 'rescue' list to a data.frame</td></tr>
+<tr><td style="width: 25%;"><a href="Rescue2LPJpar.html">Rescue2LPJpar</a></td>
+<td>Add information from a 'rescue' list to an 'LPJpar' object</td></tr>
+<tr><td style="width: 25%;"><a href="RunLPJ.html">RunLPJ</a></td>
+<td>Run LPJmL from R and get results</td></tr>
+<tr><td style="width: 25%;"><a href="SSE.html">SSE</a></td>
+<td>Sum-of-squared residuals error</td></tr>
+<tr><td style="width: 25%;"><a href="StandardError.html">StandardError</a></td>
+<td>Compute standard errors from a variance-covariance matrix</td></tr>
+<tr><td style="width: 25%;"><a href="StartingValues.html">StartingValues</a></td>
+<td>Get starting values for genoud from *.pro file</td></tr>
+<tr><td style="width: 25%;"><a href="text.ObjFct.html">text.ObjFct</a></td>
+<td>convert objective functions to text</td></tr>
+<tr><td style="width: 25%;"><a href="Texture2Soilcode.html">Texture2Soilcode</a></td>
+<td>Convert soil texture to a LPJ soilcode</td></tr>
+<tr><td style="width: 25%;"><a href="VarCovMatrix.html">VarCovMatrix</a></td>
+<td>Compute variance-covariance matrix</td></tr>
+<tr><td style="width: 25%;"><a href="WriteBIN.html">WriteBIN</a></td>
+<td>Write a BIN file from SpatialPointsDataFrame</td></tr>
+<tr><td style="width: 25%;"><a href="WriteCLM.html">WriteCLM</a></td>
+<td>Write a CLM file from SpatialPointsDataFrame</td></tr>
+<tr><td style="width: 25%;"><a href="WriteGrid.html">WriteGrid</a></td>
+<td>Write a *.grid file from a matrix of coordiantes or a SpatialPointsDataFrame</td></tr>
+<tr><td style="width: 25%;"><a href="WriteLPJinput.html">WriteLPJinput</a></td>
+<td>Write an object of class 'LPJinput' to CLM files</td></tr>
+<tr><td style="width: 25%;"><a href="WriteLPJpar.html">WriteLPJpar</a></td>
+<td>Writes an object of class 'LPJpar' as parameter file or table.</td></tr>
+</table>
+</body></html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: plot an object of class &quot;rescue&quot; / monitor OptimizeLPJgenoud</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for plot.rescue {LPJmLmdi}"><tr><td>plot.rescue {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>plot an object of class &quot;rescue&quot; / monitor OptimizeLPJgenoud</h2>
+
+<h3>Description</h3>
+
+<p>The function plots the cost per data set for all individuals of the genetic optimization from an object of class &quot;rescue&quot;. This function can be used to monitor the development of the optimization within OptimizeLPJgenoud. Therefor read the rescue files from your optimization with &quot;rescue.l &lt;- CombineRescueFiles(list.files(pattern=&quot;.RData&quot;), remove=FALSE)&quot; and call &quot;plot(rescue.l)&quot;. </p>
+
+
+<h3>Usage</h3>
+
+<pre>## S3 method for class 'rescue'
+plot(x, ylim = NULL, xlim = NULL, ylab = "Cost", xlab = "Individuals of genetic optimization", 
+    only.cost = FALSE, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a list of class &quot;rescue&quot;, see <code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>limits of the y-axis of the plot</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>limits of the x-axis of the plot</p>
+</td></tr>
+<tr valign="top"><td><code>ylab</code></td>
+<td>
+<p>label for the y axis</p>
+</td></tr>
+<tr valign="top"><td><code>xlab</code></td>
+<td>
+<p>label for the x axis</p>
+</td></tr>
+<tr valign="top"><td><code>only.cost</code></td>
+<td>
+<p>plot all integration datasets (TRUE) or only these ones with cost=TRUE</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments for <code><a href="../../graphics/html/plot.html">plot</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code></p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

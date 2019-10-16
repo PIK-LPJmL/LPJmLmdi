@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create an object of class 'LPJfiles'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for LPJfiles {LPJmLmdi}"><tr><td>LPJfiles {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create an object of class 'LPJfiles'</h2>
+
+<h3>Description</h3>
+
+<p>The function creates a list of class 'LPJfiles' that defines all paths, input files, and configurations files for a LPJ run.</p>
+
+
+<h3>Usage</h3>
+
+<pre>LPJfiles(path.lpj, path.tmp, path.out, sim.start.year, sim.end.year = NA, 
+    lpj.conf, param.conf, pft.par, param.par, input.conf, input, 
+    ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>path.lpj</code></td>
+<td>
+<p>path where LPJ is installed</p>
+</td></tr>
+<tr valign="top"><td><code>path.tmp</code></td>
+<td>
+<p>path for temporary outputs </p>
+</td></tr>
+<tr valign="top"><td><code>path.out</code></td>
+<td>
+<p>path for results</p>
+</td></tr>
+<tr valign="top"><td><code>sim.start.year</code></td>
+<td>
+<p>start year of the LPJ simulation as defined in lpjml.conf</p>
+</td></tr>
+<tr valign="top"><td><code>sim.end.year</code></td>
+<td>
+<p>last year of the LPJ simulation as defined in lpjml.conf</p>
+</td></tr>
+<tr valign="top"><td><code>lpj.conf</code></td>
+<td>
+<p>template for LPJ configuration file (create a template from lpjml.conf)</p>
+</td></tr>
+<tr valign="top"><td><code>param.conf</code></td>
+<td>
+<p>template for parameter configuration file (create a template from param.conf)</p>
+</td></tr>
+<tr valign="top"><td><code>pft.par</code></td>
+<td>
+<p>template file for PFT-specific parameters (create a template from pft.par)</p>
+</td></tr>
+<tr valign="top"><td><code>param.par</code></td>
+<td>
+<p>template file for global parameters (create a template from param.par)</p>
+</td></tr>
+<tr valign="top"><td><code>input.conf</code></td>
+<td>
+<p>template file for input data (create a template from input.conf)</p>
+</td></tr>
+<tr valign="top"><td><code>input</code></td>
+<td>
+<p>a data.frame of LPJ input files with 2 columns. The first coumn defines the flag as in written in the input.conf template file and the second column the file name, e.g. data.frame(name=c(&quot;GRID_FILE&quot;, &quot;TMP_FILE&quot;), file=c(&quot;cru.grid&quot;, &quot;temp.bin&quot;))</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

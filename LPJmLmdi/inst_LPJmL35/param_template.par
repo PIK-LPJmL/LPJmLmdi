@@ -1,0 +1,39 @@
+/**********************************************************************/
+/**                                                                  **/
+/**                  p  a  r  a  m  .  p  a  r                       **/
+/**                                                                  **/
+/**  LPJ parameter file for LPJmL version 3.5.003                    **/
+/**                                                                  **/
+/**     Last change: $Date:: 2013-08-19 12:43:56 +0200 (Mon, 19 Au#$ **/
+/**     By         : $Author:: sibylls                         $     **/
+/**                                                                  **/
+/**********************************************************************/
+
+0.3       /* k_litter10  (1/yr) */
+0.03      /* fast k_soil10  (1/yr) */
+0.001     /* slow k_soil10  (1/yr) */
+20000.0   /* max. snow pack (mm) */
+278.0     /* pre-industrial CO2 (ppmv) */
+0.0548    /* k */
+0.7       /* theta */
+0.5       /* k_beer */
+ALPHAC3      /* alphac3 */
+ALPHAC4     /* alphac4 */
+0.015     /* bc3 leaf respiration as fraction of Vmax for C3 plants */
+0.035     /* bc4 leaf respiration as fraction of Vmax for C4 plants */
+0.25      /* r_growth */
+3.26      /* GM */
+1.391     /* ALPHAM Priestlex-Taylor coefficient*/ 
+3.0e4     /* Michaelis constant for O2 (Pa) at 25 deg C */
+30        /* Michaelis constant for CO2 (Pa) at 25 deg C */
+0.7       /* atmfrac */
+0.98      /* fastfrac */
+#ifdef WITH_LANDUSE
+0.9       /* irrigation threshold */
+1.0       /* fraction of soil filled with water during irrigation event */
+5         /* maximum LAI */
+1         /* intercrops on setaside (0:FALSE, 1:TRUE) */
+0         /* remove residuals (0:FALSE, 1:TRUE) */
+1900      /* year in which sowing dates shall be fixed */
+2000      /* set landuse year for LANDUSE_CONST case */
+#endif

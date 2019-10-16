@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create an object of class 'IntegrationDataset'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for IntegrationDataset {LPJmLmdi}"><tr><td>IntegrationDataset {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create an object of class 'IntegrationDataset'</h2>
+
+<h3>Description</h3>
+
+<p>The function sets up an object of class 'IntegrationDataset' to define a dataset that should be used in model optimization, including dataset properties and the corresponding model output files. The function also reads the data input files as defined in 'data.val.file' and subsets the input data for the grid cells in 'xy'. One or several 'IntegrationDataset's need to be collected in an object of class <code><a href="IntegrationData.html">IntegrationData</a></code> which is used in the <code><a href="RunLPJ.html">RunLPJ</a></code> and <code><a href="OptimizeLPJgenoud.html">OptimizeLPJgenoud</a></code> functions.</p>
+
+
+<h3>Usage</h3>
+
+<pre>IntegrationDataset(name, unit = "", data.val.file, data.unc.file, 
+    data.time, model.val.file, xy, AggFun = NULL, data.factor = 1, 
+    model.factor = 1, cost = TRUE, CostFunction = SSE, weight = 1)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>name of the dataset or variable</p>
+</td></tr>
+<tr valign="top"><td><code>unit</code></td>
+<td>
+<p>unit of the variable (same unit as in LPJmL model output file 'model.val.file')</p>
+</td></tr>
+<tr valign="top"><td><code>data.val.file</code></td>
+<td>
+<p>name of file with the observation values, should be a file that can be read with <code><a href="../../raster/html/brick.html">brick</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>data.unc.file</code></td>
+<td>
+<p>name of file with the data uncertainties or a numeric value if the same uncertainty value should be used for all observations</p>
+</td></tr>
+<tr valign="top"><td><code>data.time</code></td>
+<td>
+<p>a vector of class 'Date' with the time period for which the observations are representative. This vector defines also for which time period model results are read to be compared with the data. For example, if data.val.file represents just one value (e.g. long-term mean), the full time period for which this long-term mean is representative needs still to be defined here. </p>
+</td></tr>
+<tr valign="top"><td><code>model.val.file</code></td>
+<td>
+<p>file name of the corresponding model result [e.g. model.val.file=&quot;mnpp.bin&quot;] or function without arguments [e.g. model.val.file=function()  ReadLPJ(&quot;mnpp.bin&quot;, start=1901, end=2009, ...) ]. The option to pass a function allows to perform any calculations on LPJ model results or to combine several LPJ model outputs in order to be comparable with observations. </p>
+</td></tr>
+<tr valign="top"><td><code>xy</code></td>
+<td>
+<p>a matrix of grid cells that is used in <code><a href="RunLPJ.html">RunLPJ</a></code> and <code><a href="OptimizeLPJgenoud.html">OptimizeLPJgenoud</a></code>. The data in 'data.val.file' and 'data.unc.file' is extracted for these grid cells.	</p>
+</td></tr>
+<tr valign="top"><td><code>AggFun</code></td>
+<td>
+<p>aggregation function to aggregate model results to the temporal resolution of the observations, for example <code><a href="AggSumMean.html">AggSumMean</a></code> for annual sums and mean over annual sums. If NULL no temporal aggregation	is done.</p>
+</td></tr>
+<tr valign="top"><td><code>data.factor</code></td>
+<td>
+<p>scaling factor to be applied to the observation data, e.g. for unit conversions</p>
+</td></tr>
+<tr valign="top"><td><code>model.factor</code></td>
+<td>
+<p>scaling factor to be applied to model outputs, e.g. for unit conversions or scaling</p>
+</td></tr>
+<tr valign="top"><td><code>cost</code></td>
+<td>
+<p>Should the data stream be included in the computation of the total cost (TRUE) or not (FALSE). In case of FALSE, evaluation plots are produced for this dataset but the dataset is not considered in the compuation of the total cost and therfore not in optimization.</p>
+</td></tr>
+<tr valign="top"><td><code>CostFunction</code></td>
+<td>
+<p>cost function that should be used for this dataset, default <code><a href="SSE.html">SSE</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>weight</code></td>
+<td>
+<p>weighting factor for the dataset in the cost function, cost = CostFunction / number of observations * weight</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a list of class 'IntegrationDataset'</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="IntegrationData.html">IntegrationData</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# # grid cells for which LPJmL should be run and for which the integration data should be extracted
+# xy &lt;- cbind(c(136.75, 137.25, 160.75,168.75), c(45.25, 65.25, 68.75, 63.75))
+
+# # use monthly FAPAR in model-data integration
+# fapar &lt;- IntegrationDataset(name="FAPAR", unit="", 
+	# data.val.file="GIMMS.FAPAR.1982.2011.nc", 
+	# data.unc.file=0.12, 
+	# data.time=seq(as.Date("1982-01-01"), as.Date("2011-12-31"), by="month"),
+	# model.val.file="mfapar.bin",
+	# model.agg=NULL,
+	# xy=xy,
+	# data.factor=NULL,
+	# cost=TRUE,
+	# CostFunction=SSE,
+	# weight=1)
+	
+# # use mean annual GPP in model-data integration
+# gpp &lt;- IntegrationDataset(name="GPP", unit="gC m-2 yr-1", 
+	# data.val.file="MTE.GPP.1982.2011.meanannual.nc", 
+	# data.unc.file="MTE.GPPunc.1982.2011.meanannual.nc", 
+	# data.time=seq(as.Date("1982-01-01"), as.Date("2011-12-31"), by="month"),
+	# model.val.file="mgpp.bin",
+	# model.agg=AggSumMean, # sum of each year, mean over all years -&gt; mean annual GPP
+	# xy=xy,
+	# data.factor=NULL,
+	# cost=TRUE,
+	# CostFunction=SSE,
+	# weight=1)	
+	
+	
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Change soil code in LPJ soil code file</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ChangeSoilCodeFile {LPJmLmdi}"><tr><td>ChangeSoilCodeFile {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Change soil code in LPJ soil code file</h2>
+
+<h3>Description</h3>
+
+<p>The function changes the soil code for the specified grid cells and writes a new LPJ soil code file.</p>
+
+
+<h3>Usage</h3>
+
+<pre>ChangeSoilCodeFile(file.soilcode, file.soilcode.new, xy, newcode, 
+    file.grid = "cru.grid", ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file.soilcode</code></td>
+<td>
+<p>original soil code file</p>
+</td></tr>
+<tr valign="top"><td><code>file.soilcode.new</code></td>
+<td>
+<p>new soil code file</p>
+</td></tr>
+<tr valign="top"><td><code>xy</code></td>
+<td>
+<p>matrix of grid cells (lon, lat) where the soil code should be changed</p>
+</td></tr>
+<tr valign="top"><td><code>newcode</code></td>
+<td>
+<p>new soil code at each grid cell (vector with length = nrow(xy))</p>
+</td></tr>
+<tr valign="top"><td><code>file.grid</code></td>
+<td>
+<p>grid file for the original soil code file</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ReadBIN.html">ReadBIN</a></code></p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

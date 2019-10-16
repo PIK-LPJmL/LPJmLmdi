@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Iterative checking and waiting for a file.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for FileExistsWait {LPJmLmdi}"><tr><td>FileExistsWait {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Iterative checking and waiting for a file.</h2>
+
+<h3>Description</h3>
+
+<p>The function repeately checks if a file exists and returns TRUE if the file is existing.</p>
+
+
+<h3>Usage</h3>
+
+<pre>FileExistsWait(file, waitmin = 0, waitinterval = 0.5, waitmax = 2, 
+    ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>file for which checking and waiting should be applied</p>
+</td></tr>
+<tr valign="top"><td><code>waitmin</code></td>
+<td>
+<p>minimum waiting time (seconds) </p>
+</td></tr>
+<tr valign="top"><td><code>waitinterval</code></td>
+<td>
+<p>interval after which the existence of the file should be checked again (seconds)</p>
+</td></tr>
+<tr valign="top"><td><code>waitmax</code></td>
+<td>
+<p>maximum waiting time (seconds)</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+FileExistsWait(system.file("external/rlogo.grd", package="raster"))
+FileExistsWait("nofile.txt")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

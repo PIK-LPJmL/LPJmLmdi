@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot parameters in 'LPJpar' object.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for plot.LPJpar {LPJmLmdi}"><tr><td>plot.LPJpar {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Plot parameters in 'LPJpar' object.</h2>
+
+<h3>Usage</h3>
+
+<pre>## S3 method for class 'LPJpar'
+plot(x, par.name = NULL, uncertainty = "uncertainty.iqr", 
+    col = NULL, ylim = NULL, xlim = NULL, which.pft = NULL, if.opt = FALSE, 
+    names = FALSE, xaxt = "s")</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>object of class 'LPJpar'</p>
+</td></tr>
+<tr valign="top"><td><code>par.name</code></td>
+<td>
+<p>name(s) of the parameters that should be plotted</p>
+</td></tr>
+<tr valign="top"><td><code>uncertainty</code></td>
+<td>
+<p>name of the uncertainty estimate in LPJpar that should be used to plot posterior uncertainties</p>
+</td></tr>
+<tr valign="top"><td><code>col</code></td>
+<td>
+<p>vector of colours for PFT-specific parameters</p>
+</td></tr>
+<tr valign="top"><td><code>ylim</code></td>
+<td>
+<p>limits of the y-axis</p>
+</td></tr>
+<tr valign="top"><td><code>xlim</code></td>
+<td>
+<p>limits of the x-axis</p>
+</td></tr>
+<tr valign="top"><td><code>which.pft</code></td>
+<td>
+<p>character vector of PFT names that should be plotted. If NULL all </p>
+</td></tr>
+<tr valign="top"><td><code>if.opt</code></td>
+<td>
+<p>plot parameters only if optimized (i.e. best) parameters are in LPJpar</p>
+</td></tr>
+<tr valign="top"><td><code>names</code></td>
+<td>
+<p>plot PFT names within the plot?	</p>
+</td></tr>
+<tr valign="top"><td><code>xaxt</code></td>
+<td>
+<p>x axis type. &quot;n&quot; suppresses the x axis.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="LPJpar.html">LPJpar</a></code>, <code><a href="CheckLPJpar.html">CheckLPJpar</a></code>	</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# plot(lpjpar, par.name="ALBEDO_LEAF_TeBS", uncertainty="uncertainty.iqr95")
+# plot(lpjpar, par.name="ALBEDO_LEAF", uncertainty="uncertainty.iqr")
+# plot(lpjpar, par.name="LIGHTEXTCOEFF", uncertainty="uncertainty.iqr")
+# par(mfrow=c(2,2))
+# plot(lpjpar, par.name=c("ALPHAA", "LIGHTEXTCOEFF", "ALBEDO_LEAF"))
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

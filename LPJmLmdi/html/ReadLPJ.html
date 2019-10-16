@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read a LPJ binary file</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ReadLPJ {LPJmLmdi}"><tr><td>ReadLPJ {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read a LPJ binary file</h2>
+
+<h3>Description</h3>
+
+<p>The function reads a binary LPJ output file and returns a SpatialPointsDataFrame</p>
+
+
+<h3>Usage</h3>
+
+<pre>ReadLPJ(file.bin, file.grid = "grid.bin", sim.start.year = 1901, 
+    start = sim.start.year, end = NA, file.annual = c("vegc.bin", 
+        "litc.bin", "soilc.bin"), size = 4, data.type = numeric(), 
+    endian = "little", ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file.bin</code></td>
+<td>
+<p>binary LPJ output file</p>
+</td></tr>
+<tr valign="top"><td><code>file.grid</code></td>
+<td>
+<p>binary LPJ grid file</p>
+</td></tr>
+<tr valign="top"><td><code>sim.start.year</code></td>
+<td>
+<p>first year of the simulation</p>
+</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+<p>first year to read</p>
+</td></tr>
+<tr valign="top"><td><code>end</code></td>
+<td>
+<p>last year to read, reads until last year if NA</p>
+</td></tr>
+<tr valign="top"><td><code>file.annual</code></td>
+<td>
+<p>one of the binary LPJ output files with annual data</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>the number of bytes per element in the byte stream.</p>
+</td></tr>
+<tr valign="top"><td><code>data.type</code></td>
+<td>
+<p>data type of the file (default=numeric())</p>
+</td></tr>
+<tr valign="top"><td><code>endian</code></td>
+<td>
+<p>endianess of the binary file</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a SpatialPointsDataFrame.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ReadLPJsim.html">ReadLPJsim</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# ReadLPJ("mgpp.bin", start=1982, end=2011)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

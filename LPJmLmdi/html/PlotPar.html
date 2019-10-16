@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plot parameter vs. cost</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for PlotPar {LPJmLmdi}"><tr><td>PlotPar {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Plot parameter vs. cost</h2>
+
+<h3>Description</h3>
+
+<p>The function takes an object of class 'rescue' (see <code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code>) (alternatively a 'data.frame' as created with <code><a href="Rescue2Df.html">Rescue2Df</a></code>) and a 'LPJpar' object and plots different plots of cost vs. parameter value and parameter uncertainties.</p>
+
+
+<h3>Usage</h3>
+
+<pre>PlotPar(rescue.l, lpjpar, par.name = NULL, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>rescue.l</code></td>
+<td>
+<p>a list of class &quot;rescue&quot; (<code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code>) or alternatively a data.frame as created with <code><a href="Rescue2Df.html">Rescue2Df</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>lpjpar</code></td>
+<td>
+<p>a list of class &quot;LPJpar&quot; (see <code><a href="LPJpar.html">LPJpar</a></code>)</p>
+</td></tr>
+<tr valign="top"><td><code>par.name</code></td>
+<td>
+<p>name(s) of the parameters that should be plotted	</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# files &lt;- c(list.files(pattern="rescue.RData", recursive=TRUE), list.files(pattern="rescue0.RData", recursive=TRUE))
+# rescue.l &lt;- CombineRescueFiles(files, remove=FALSE)
+# PlotCostPar(rescue.l, lpjpar)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

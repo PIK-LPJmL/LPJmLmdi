@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Create an object of class 'IntegrationData'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for IntegrationData {LPJmLmdi}"><tr><td>IntegrationData {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Create an object of class 'IntegrationData'</h2>
+
+<h3>Description</h3>
+
+<p>The function takes several objects of class <code><a href="IntegrationDataset.html">IntegrationDataset</a></code> and converts them to an object 'IntegrationData' that is used in <code><a href="RunLPJ.html">RunLPJ</a></code> and <code><a href="OptimizeLPJgenoud.html">OptimizeLPJgenoud</a></code>. </p>
+
+
+<h3>Usage</h3>
+
+<pre>IntegrationData(...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>one or several objects of class 'IntegrationDataset'</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a list of class 'IntegrationData'	</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="IntegrationDataset.html">IntegrationDataset</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# # grid cells for which LPJmL should be run and for which the integration data should be extracted
+# xy &lt;- cbind(c(136.75, 137.25, 160.75,168.75), c(45.25, 65.25, 68.75, 63.75))
+
+# # use monthly FAPAR in model-data integration
+# fapar &lt;- IntegrationDataset(name="FAPAR", unit="", 
+	# data.val.file="GIMMS.FAPAR.1982.2011.nc", 
+	# data.unc.file=0.12, 
+	# data.time=seq(as.Date("1982-01-01"), as.Date("2011-12-31"), by="month"),
+	# model.val.file="mfapar.bin",
+	# model.agg=NULL,
+	# xy=xy,
+	# data.factor=NULL,
+	# cost=TRUE,
+	# CostFunction=SSE,
+	# weight=1)
+	
+# # use mean annual GPP in model-data integration
+# gpp &lt;- IntegrationDataset(name="GPP", unit="gC m-2 yr-1", 
+	# data.val.file="MTE.GPP.1982.2011.meanannual.nc", 
+	# data.unc.file="MTE.GPPunc.1982.2011.meanannual.nc", 
+	# data.time=seq(as.Date("1982-01-01"), as.Date("2011-12-31"), by="month"),
+	# model.val.file="mgpp.bin",
+	# model.agg=AggSumMean, # sum of each year, mean over all years -&gt; mean annual GPP
+	# xy=xy,
+	# data.factor=NULL,
+	# cost=TRUE,
+	# CostFunction=SSE,
+	# weight=1)	
+	
+# integrationdata &lt;- IntegrationData(fapar, gpp)
+	
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

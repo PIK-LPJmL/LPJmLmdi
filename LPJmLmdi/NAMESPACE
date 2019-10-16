@@ -1,0 +1,5 @@
+importFrom("plotrix", "color.legend")
+importFrom("tidyr", "separate", "unite", "gather")
+importFrom("RColorBrewer", "brewer.pal")
+exportPattern("^[[:alpha:]]+")
+

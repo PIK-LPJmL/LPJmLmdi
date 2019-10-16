@@ -1,0 +1,12 @@
+Package: LPJmLmdi
+Title: Model-Data Integration for the LPJmL Dynamic Global Vegetation Model
+Version: 1.3
+Date: 2019-01-22
+Author: Matthias Forkel <matthias.forkel@geo.tuwien.ac.at> [aut, cre], Markus Drüke <drueke@pik-potsdam.de> [aut]
+Maintainer: Matthias Forkel <matthias.forkel@geo.tuwien.ac.at>, Markus Drüke <drueke@pik-potsdam.de>
+Description: Model-data integration framework for the LPJmL dynamic global vegetation model. Specifically, the package provides functions 1) to optimize LPJmL model parameters using the GENOUD genetic optimization algorithm, 2) to read and write LPJmL input data, and 3) to read LPJmL output files.
+Depends: R (>= 2.15.3), raster, plyr, rgenoud, ncdf4, ModelDataComp
+Imports: dplyr, plotrix, fields, tidyr
+License: GPL-2
+URL: 
+LazyLoad: yes

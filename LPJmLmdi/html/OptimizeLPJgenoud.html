@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Optimize LPJ using the GENOUD optimizer (genetic optimization...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for OptimizeLPJgenoud {LPJmLmdi}"><tr><td>OptimizeLPJgenoud {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Optimize LPJ using the GENOUD optimizer (genetic optimization using derivatives)</h2>
+
+<h3>Description</h3>
+
+<p>This function performs an optimization of LPJmL model parameters for the specified grid cells unsing the GENOUD genetic optimization algorithm.</p>
+
+
+<h3>Usage</h3>
+
+<pre>OptimizeLPJgenoud(xy, name, lpjpar, par.optim, lpjfiles, copy.input = TRUE, 
+    integrationdata, plot = TRUE, pop.size = 1000, max.generations = 20, 
+    wait.generations = 19, BFGSburnin = 18, calc.jacob = FALSE, 
+    restart = 0, path.rescue = NULL, restart.jacob = FALSE, nodes = 1, 
+    maxAutoRestart = 5, runonly = FALSE, new.spinup4post = TRUE, 
+    CostMDS = CostMDS.SSE)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>xy</code></td>
+<td>
+<p>matrix of grid cell coordinates to run LPJ</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>name of the experiment (basic file name for all outputs)</p>
+</td></tr>
+<tr valign="top"><td><code>lpjpar</code></td>
+<td>
+<p>data.frame of class <code><a href="LPJpar.html">LPJpar</a></code> that define all LPJ parameter values, ranges, and names</p>
+</td></tr>
+<tr valign="top"><td><code>par.optim</code></td>
+<td>
+<p>names of the parameters that should be optimized</p>
+</td></tr>
+<tr valign="top"><td><code>lpjfiles</code></td>
+<td>
+<p>list of class <code><a href="LPJfiles.html">LPJfiles</a></code> that define all LPJ directories, input files, configuration template files</p>
+</td></tr>
+<tr valign="top"><td><code>copy.input</code></td>
+<td>
+<p>Should LPJ input data be copied to the directory for temporary output? This might speed up computations if the directory is on the same machine where the program runs. </p>
+</td></tr>
+<tr valign="top"><td><code>integrationdata</code></td>
+<td>
+<p>list of integration data and information</p>
+</td></tr>
+<tr valign="top"><td><code>plot</code></td>
+<td>
+<p>plot diagnostic graphics of optimization results?</p>
+</td></tr>
+<tr valign="top"><td><code>pop.size</code></td>
+<td>
+<p>population size, see <code><a href="../../rgenoud/html/genoud.html">genoud</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>max.generations</code></td>
+<td>
+<p>max number of generations, see <code><a href="../../rgenoud/html/genoud.html">genoud</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>wait.generations</code></td>
+<td>
+<p>How many generations should genoud wait before returning an optimum, see <code><a href="../../rgenoud/html/genoud.html">genoud</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>BFGSburnin</code></td>
+<td>
+<p>The number of generations before the L-BFGS-B algorithm is first used, see <code><a href="../../rgenoud/html/genoud.html">genoud</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>calc.jacob</code></td>
+<td>
+<p>Should the Hessian and Jacobian matrix be computed (yes = TRUE, no = FALSE)?</p>
+</td></tr>
+<tr valign="top"><td><code>restart</code></td>
+<td>
+<p>Where to re-start the optimization? 0 = start at the beginning, 1 = continue with existing genoud optimization, 2 = start after genoud and post-process results. </p>
+</td></tr>
+<tr valign="top"><td><code>path.rescue</code></td>
+<td>
+<p>directory where the resuce files from each iteration of a previous optimization are saved. This is needed if restart &gt; 0.</p>
+</td></tr>
+<tr valign="top"><td><code>restart.jacob</code></td>
+<td>
+<p>Should the Hessian and Jacobian matrix be recomputed if restart &gt; 0 (yes = TRUE, no = FALSE)? Works only if calc.jacob is TRUE.</p>
+</td></tr>
+<tr valign="top"><td><code>nodes</code></td>
+<td>
+<p>use parallel computing? How many nodes to use?</p>
+</td></tr>
+<tr valign="top"><td><code>maxAutoRestart</code></td>
+<td>
+<p>maximum number of automatic restarts of the optimization if an error occurs within genoud()</p>
+</td></tr>
+<tr valign="top"><td><code>runonly</code></td>
+<td>
+<p>run only the model with prior parameters set but don't perform optimization. Produces only results of prior model run.</p>
+</td></tr>
+<tr valign="top"><td><code>new.spinup4post</code></td>
+<td>
+<p>What spinup conditions should be used for the posterior ('posterior-best' and 'posterior-median')  model runs? If TRUE, a new spinup is computed based on the optimized parameters. If FALSE, the posterior model runs are started from the spinup conditions of the prior model run (like the runs during optimization).</p>
+</td></tr>
+<tr valign="top"><td><code>CostMDS</code></td>
+<td>
+<p>cost function for multiple data streams to calculate total cost, cost per data stream, and eventually cost per grid cell. See <code><a href="CostMDS.SSE.html">CostMDS.SSE</a></code> (default) or <code><a href="CostMDS.KGE.html">CostMDS.KGE</a></code></p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

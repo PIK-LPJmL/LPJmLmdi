@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Write a CLM file from SpatialPointsDataFrame</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for WriteCLM {LPJmLmdi}"><tr><td>WriteCLM {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Write a CLM file from SpatialPointsDataFrame</h2>
+
+<h3>Description</h3>
+
+<p>The function writes CLM files from a SpatialPointsDataFrame or SpatialPixelsDataFrame. The LPJmL program cru2clm needs to be installed.</p>
+
+
+<h3>Usage</h3>
+
+<pre>WriteCLM(data.sp, file.clm, start, nbands, size = 2, scale = 1, 
+    na.replace = -9999, path.lpj = NULL, res = 0.5, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data.sp</code></td>
+<td>
+<p>SpatialPointsDataFrame or SpatialPixelsDataFrame with data</p>
+</td></tr>
+<tr valign="top"><td><code>file.clm</code></td>
+<td>
+<p>CLM file name with extension *.clm</p>
+</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+<p>integer. First year in data.</p>
+</td></tr>
+<tr valign="top"><td><code>nbands</code></td>
+<td>
+<p>Number of bands per year.</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>The number of bytes per element in the byte stream.</p>
+</td></tr>
+<tr valign="top"><td><code>scale</code></td>
+<td>
+<p>Scaling factor to be written to the header of the CLM file. The factor will be not applied to the data.</p>
+</td></tr>
+<tr valign="top"><td><code>na.replace</code></td>
+<td>
+<p>integer to replace NA values.</p>
+</td></tr>
+<tr valign="top"><td><code>path.lpj</code></td>
+<td>
+<p>path to LPJ installation</p>
+</td></tr>
+<tr valign="top"><td><code>res</code></td>
+<td>
+<p>spatial resolution of the grid cells </p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Further arguments (currently not used).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns TRUE if the CLM file was created.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="WriteLPJinput.html">WriteLPJinput</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# data.sp &lt;- SpatialPointsDataFrame(lpjinput$grid, as.data.frame(data.m))
+# WriteCLM(data.sp, file="data.clm", start=1901, nbands=12, size=2)	
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

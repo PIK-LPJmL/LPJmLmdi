@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Run LPJmL from R and get results</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for RunLPJ {LPJmLmdi}"><tr><td>RunLPJ {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Run LPJmL from R and get results</h2>
+
+<h3>Description</h3>
+
+<p>This function calls LPJmL, reads the results of the model run, computes the cost based on the data sets in <code><a href="IntegrationData.html">IntegrationData</a></code> and the defined cost function (in CostMDS), and returns the simulation results. </p>
+
+
+<h3>Usage</h3>
+
+<pre>RunLPJ(dpar, lpjpar, which.par.opt, lpjfiles, path = NULL, integrationdata, 
+    xy, newcell = FALSE, name = "LPJmL", plot = FALSE, getresult = FALSE, 
+    clean = 1, clean.path = FALSE, CostMDS = CostMDS.SSE, nkeep = 400)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dpar</code></td>
+<td>
+<p>vector of scaling factors for each parameter in 'which.par.opt': parameter = dpar * prior (e.g. if dpar is 1, prior parameters are used in the model run). Optimization is performed on these scaling factors</p>
+</td></tr>
+<tr valign="top"><td><code>lpjpar</code></td>
+<td>
+<p>data.frame of class <code><a href="LPJpar.html">LPJpar</a></code> that define LPJ parameter values, ranges, and names</p>
+</td></tr>
+<tr valign="top"><td><code>which.par.opt</code></td>
+<td>
+<p>integer vector that indicates which parameters in lpjpar should be optimized</p>
+</td></tr>
+<tr valign="top"><td><code>lpjfiles</code></td>
+<td>
+<p>list of class <code><a href="LPJfiles.html">LPJfiles</a></code> that define all LPJ directories, input files, configuration template files</p>
+</td></tr>
+<tr valign="top"><td><code>path</code></td>
+<td>
+<p>path for output files of actual model run</p>
+</td></tr>
+<tr valign="top"><td><code>integrationdata</code></td>
+<td>
+<p>list of of class <code><a href="IntegrationData.html">IntegrationData</a></code> </p>
+</td></tr>
+<tr valign="top"><td><code>xy</code></td>
+<td>
+<p>matrix of grid cell coordinates to run LPJ</p>
+</td></tr>
+<tr valign="top"><td><code>newcell</code></td>
+<td>
+<p>calculate new cell and new spinup?</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>name of the LPJ run, basic name for all outputs</p>
+</td></tr>
+<tr valign="top"><td><code>plot</code></td>
+<td>
+<p>plot results? see <code><a href="plot.IntegrationData.html">plot.IntegrationData</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>getresult</code></td>
+<td>
+<p>If TRUE, all model results are returned in a LPJsim object and model results are saved. If FALSE, only the cost function value is returned.</p>
+</td></tr>
+<tr valign="top"><td><code>clean</code></td>
+<td>
+<p>clean results and temporay configuration and parameter files? 0 = keep everthing; 1 = delete parameter files, conf files and outputs; 2 = clean additionally input files, soil code files and restart</p>
+</td></tr>
+<tr valign="top"><td><code>clean.path</code></td>
+<td>
+<p>Delete output directory 'path' in case it already exists before the model run?</p>
+</td></tr>
+<tr valign="top"><td><code>CostMDS</code></td>
+<td>
+<p>cost function for multiple data streams</p>
+</td></tr>
+<tr valign="top"><td><code>nkeep</code></td>
+<td>
+<p>number of result files to keep. If more are existing, the ones with highest costs will be deleted</p>
+</td></tr>
+</table>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

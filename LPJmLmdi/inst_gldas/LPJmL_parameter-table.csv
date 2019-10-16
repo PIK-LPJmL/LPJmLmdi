@@ -1,0 +1,554 @@
+pft,par.names,par.prior,par.lower,par.upper,par.pftspecif,par.unit,reference,description,comment,Zaehle2005,process
+BoBS,ALBEDO_LEAF_BoBS,0.180000,0.110000,0.250000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+BoNE,ALBEDO_LEAF_BoNE,0.130000,0.060000,0.200000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+BoNS,ALBEDO_LEAF_BoNS,0.120000,0.050000,0.190000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+PoH,ALBEDO_LEAF_PoH,0.210000,0.140000,0.280000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TeBE,ALBEDO_LEAF_TeBE,0.150000,0.080000,0.220000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TeBS,ALBEDO_LEAF_TeBS,0.150000,0.080000,0.220000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TeH,ALBEDO_LEAF_TeH,0.200000,0.130000,0.270000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TeNE,ALBEDO_LEAF_TeNE,0.137000,0.067000,0.207000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TrBE,ALBEDO_LEAF_TrBE,0.140000,0.070000,0.210000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TrBR,ALBEDO_LEAF_TrBR,0.130000,0.060000,0.200000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+TrH,ALBEDO_LEAF_TrH,0.210000,0.140000,0.280000,TRUE,-,S18a Tab S5,leaf albedo,LPJmL4 default,,albedo
+BoBS,ALBEDO_LITTER_BoBS,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+BoNE,ALBEDO_LITTER_BoNE,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+BoNS,ALBEDO_LITTER_BoNS,0.010000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+PoH,ALBEDO_LITTER_PoH,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TeBE,ALBEDO_LITTER_TeBE,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TeBS,ALBEDO_LITTER_TeBS,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TeH,ALBEDO_LITTER_TeH,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TeNE,ALBEDO_LITTER_TeNE,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TrBE,ALBEDO_LITTER_TrBE,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TrBR,ALBEDO_LITTER_TrBR,0.060000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+TrH,ALBEDO_LITTER_TrH,0.100000,0.000000,0.200000,TRUE,-,S18a Tab S5,litter albedo,LPJmL4 default,,albedo
+BoBS,ALBEDO_STEM_BoBS,0.100000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+BoNE,ALBEDO_STEM_BoNE,0.100000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+BoNS,ALBEDO_STEM_BoNS,0.050000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+PoH,ALBEDO_STEM_PoH,999.000000,998.000000,1000.000000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TeBE,ALBEDO_STEM_TeBE,0.040000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TeBS,ALBEDO_STEM_TeBS,0.040000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TeH,ALBEDO_STEM_TeH,999.000000,998.000000,1000.000000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TeNE,ALBEDO_STEM_TeNE,0.040000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TrBE,ALBEDO_STEM_TrBE,0.100000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TrBR,ALBEDO_STEM_TrBR,0.070000,0.010000,0.150000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+TrH,ALBEDO_STEM_TrH,999.000000,998.000000,1000.000000,TRUE,-,S18a Tab S5,stem albedo,LPJmL4 default,,albedo
+BoBS,ALLOM1_BoBS,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+BoNE,ALLOM1_BoNE,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+BoNS,ALLOM1_BoNS,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+TeBE,ALLOM1_TeBE,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+TeBS,ALLOM1_TeBS,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+TeNE,ALLOM1_TeNE,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+TrBE,ALLOM1_TrBE,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+TrBR,ALLOM1_TrBR,100.000000,50.000000,150.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 50,LPJmL4 default,TRUE,allometry
+BoBS,ALLOM2_BoBS,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoNE,ALLOM2_BoNE,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoNS,ALLOM2_BoNS,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeBE,ALLOM2_TeBE,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeBS,ALLOM2_TeBS,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeNE,ALLOM2_TeNE,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TrBE,ALLOM2_TrBE,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TrBR,ALLOM2_TrBR,40.000000,20.000000,60.000000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoBS,ALLOM3_BoBS,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoNE,ALLOM3_BoNE,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoNS,ALLOM3_BoNS,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeBE,ALLOM3_TeBE,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeBS,ALLOM3_TeBS,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TeNE,ALLOM3_TeNE,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TrBE,ALLOM3_TrBE,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+TrBR,ALLOM3_TrBR,0.670000,0.335000,1.005000,TRUE,-,S18a Tab S6,Parameter for allometric relation ship Eq. 49,LPJmL4 default,TRUE,allometry
+BoBS,ALLOM4_BoBS,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+BoNE,ALLOM4_BoNE,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+BoNS,ALLOM4_BoNS,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+TeBE,ALLOM4_TeBE,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+TeBS,ALLOM4_TeBS,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+TeNE,ALLOM4_TeNE,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+TrBE,ALLOM4_TrBE,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+TrBR,ALLOM4_TrBR,0.300000,0.150000,0.450000,TRUE,NA,unused,unused,LPJmL4 default,,allometry
+BoBS,ALPHA_FUELP_BoBS,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+BoNE,ALPHA_FUELP_BoNE,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+BoNS,ALPHA_FUELP_BoNS,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+PoH,ALPHA_FUELP_PoH,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TeBE,ALPHA_FUELP_TeBE,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TeBS,ALPHA_FUELP_TeBS,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TeH,ALPHA_FUELP_TeH,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TeNE,ALPHA_FUELP_TeNE,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TrBE,ALPHA_FUELP_TrBE,0.000033,0.000003,0.000067,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TrBR,ALPHA_FUELP_TrBR,0.000033,0.000003,0.000067,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+TrH,ALPHA_FUELP_TrH,0.000067,0.000007,0.000133,TRUE,-,Drueke et al.,scaling factor fire danger index,LPJmL4 default,,fire danger
+global,ALPHA_M,1.391000,1.377090,1.404910,FALSE,-,Sitch et al. 2003,Priestley-Taylor coefficient,LPJmL4 default,TRUE,evapotranspiration
+BoBS,ALPHAA_BoBS,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+BoNE,ALPHAA_BoNE,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+BoNS,ALPHAA_BoNS,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+PoH,ALPHAA_PoH,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TeBE,ALPHAA_TeBE,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TeBS,ALPHAA_TeBS,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TeH,ALPHAA_TeH,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TeNE,ALPHAA_TeNE,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TrBE,ALPHAA_TrBE,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TrBR,ALPHAA_TrBR,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+TrH,ALPHAA_TrH,0.400000,0.350000,0.650000,TRUE,-,S18a Tab S5,"scaling factor from leaf to ecosystem level (Haxeltine and Prentice, 1996)",LPJmL4 default,TRUE,productivity
+global,ALPHAC3,0.080000,0.070000,0.090000,FALSE,-,S18a Tab S6,Intrinsic quantum efficiency of CO2 uptake in C3 plants,LPJmL4 default,TRUE,productivity
+global,ALPHAC4,0.053000,0.050000,0.060000,FALSE,-,S18a Tab S6,Intrinsic quantum efficiency of CO2 uptake in C4 plants,LPJmL4 default,TRUE,productivity
+global,ATMFRAC,0.700000,0.500000,0.900000,FALSE,, Zaehle et al. 2005,,LPJmL4 default,TRUE,respiration
+global,BC3,0.015000,0.012000,0.018000,FALSE,day-1,S18a Tab S6,leaf respiration as fraction of Vmax for C3 plants,LPJmL4 default,,respiration
+global,BC4,0.035000,0.028000,0.042000,FALSE,day-1,S18a Tab S6,leaf respiration as fraction of Vmax for C4 plants,LPJmL4 default,,respiration
+BoBS,BETA_ROOT_BoBS,0.943000,0.913000,0.993000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+BoNE,BETA_ROOT_BoNE,0.943000,0.913000,0.993000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+BoNS,BETA_ROOT_BoNS,0.943000,0.913000,0.993000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+PoH,BETA_ROOT_PoH,0.943000,0.913000,0.993000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TeBE,BETA_ROOT_TeBE,0.964000,0.934000,1.014000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TeBS,BETA_ROOT_TeBS,0.966000,0.936000,1.016000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TeH,BETA_ROOT_TeH,0.943000,0.913000,0.993000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TeNE,BETA_ROOT_TeNE,0.976000,0.946000,1.026000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TrBE,BETA_ROOT_TrBE,0.962000,0.932000,1.012000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TrBR,BETA_ROOT_TrBR,0.961000,0.931000,1.011000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+TrH,BETA_ROOT_TrH,0.972000,0.942000,1.022000,TRUE,-,S18a Tab S8,root distribution slope parameter for water availability,LPJmL4 default,,water availability
+BoBS,CROWN_MORT_RCK_BoBS,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+BoNE,CROWN_MORT_RCK_BoNE,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+BoNS,CROWN_MORT_RCK_BoNS,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+TeBE,CROWN_MORT_RCK_TeBE,0.950000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+TeBS,CROWN_MORT_RCK_TeBS,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+TeNE,CROWN_MORT_RCK_TeNE,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+TrBE,CROWN_MORT_RCK_TrBE,1.000000,0.500000,1.010000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+TrBR,CROWN_MORT_RCK_TrBR,0.050000,0.000000,0.500000,TRUE,-,S18a Tab S9,resistance factor for crown damage,LPJmL4 default,,fire mortality
+BoBS,CROWNAREA_MAX_BoBS,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+BoNE,CROWNAREA_MAX_BoNE,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+BoNS,CROWNAREA_MAX_BoNS,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+TeBE,CROWNAREA_MAX_TeBE,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+TeBS,CROWNAREA_MAX_TeBS,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+TeNE,CROWNAREA_MAX_TeNE,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+TrBE,CROWNAREA_MAX_TrBE,15.000000,10.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+TrBR,CROWNAREA_MAX_TrBR,12.000000,8.000000,30.000000,TRUE,m2,(S18a Tab S13),maximum crown area,LPJmL4 default,TRUE,allometry
+global,E0,308.560000,273.000000,325.000000,FALSE,K,NA,Activation energy for respiration ,LPJmL4 default,TRUE,respiration
+BoBS,EMAX_BoBS,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+BoNE,EMAX_BoNE,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+BoNS,EMAX_BoNS,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+PoH,EMAX_PoH,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TeBE,EMAX_TeBE,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TeBS,EMAX_TeBS,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TeH,EMAX_TeH,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TeNE,EMAX_TeNE,5.000000,2.500000,7.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TrBE,EMAX_TrBE,7.000000,3.500000,10.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TrBR,EMAX_TrBR,7.000000,3.500000,10.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+TrH,EMAX_TrH,7.000000,3.500000,10.500000,TRUE,mm day-1,S18a SI p26,Maximum water transport capacity,LPJmL4 default,TRUE,evapotranspiration
+BoBS,GDD5MIN_BoBS,350.000000,100.000000,2000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+BoNE,GDD5MIN_BoNE,600.000000,100.000000,1000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+BoNS,GDD5MIN_BoNS,350.000000,100.000000,1000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+PoH,GDD5MIN_PoH,1.000000,0.100000,500.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TeBE,GDD5MIN_TeBE,1200.000000,100.000000,4000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TeBS,GDD5MIN_TeBS,1200.000000,100.000000,4000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TeH,GDD5MIN_TeH,1.000000,0.100000,2000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TeNE,GDD5MIN_TeNE,900.000000,100.000000,4000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TrBE,GDD5MIN_TrBE,1.000000,0.100000,6000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TrBR,GDD5MIN_TrBR,1.000000,0.100000,6000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+TrH,GDD5MIN_TrH,1.000000,0.100000,6000.000000,TRUE,°C,S18a Tab S4,Minimum number of growing degree days for establishment,LPJmL4 default,,bioclimatic limits
+global,GMAX,3.260000,2.282000,4.238000,FALSE,-,S18a SI p26,maximum canopy conductance analogue (gm),LPJmL4 default,TRUE,evapotranspiration
+BoBS,GMIN_BoBS,0.500000,0.350000,0.650000,TRUE,mm s-1,S18a Tab S8,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+BoNE,GMIN_BoNE,0.300000,0.210000,0.390000,TRUE,mm s-2,S18a Tab S9,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+BoNS,GMIN_BoNS,0.500000,0.350000,0.650000,TRUE,mm s-3,S18a Tab S10,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+PoH,GMIN_PoH,0.500000,0.350000,0.650000,TRUE,mm s-4,S18a Tab S11,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TeBE,GMIN_TeBE,0.500000,0.350000,0.650000,TRUE,mm s-5,S18a Tab S12,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TeBS,GMIN_TeBS,0.500000,0.350000,0.650000,TRUE,mm s-6,S18a Tab S13,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TeH,GMIN_TeH,0.500000,0.350000,0.650000,TRUE,mm s-7,S18a Tab S14,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TeNE,GMIN_TeNE,0.500000,0.350000,0.650000,TRUE,mm s-8,S18a Tab S15,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TrBE,GMIN_TrBE,0.500000,0.350000,0.650000,TRUE,mm s-9,S18a Tab S16,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TrBR,GMIN_TrBR,0.500000,0.350000,0.650000,TRUE,mm s-10,S18a Tab S17,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+TrH,GMIN_TrH,0.500000,0.350000,0.650000,TRUE,mm s-11,S18a Tab S18,minimum canopy conductance,LPJmL4 default,TRUE,evapotranspiration
+BoBS,INTC_BoBS,0.060000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+BoNE,INTC_BoNE,0.060000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+BoNS,INTC_BoNS,0.060000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+PoH,INTC_PoH,0.010000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TeBE,INTC_TeBE,0.020000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TeBS,INTC_TeBS,0.020000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TeH,INTC_TeH,0.010000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TeNE,INTC_TeNE,0.020000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TrBE,INTC_TrBE,0.020000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TrBR,INTC_TrBR,0.020000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+TrH,INTC_TrH,0.010000,0.010000,0.300000,TRUE,-,S18a SI p26,interception storage parameter,LPJmL4 default,TRUE,evapotranspiration
+BoBS,K_EST_BoBS,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+BoNE,K_EST_BoNE,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+BoNS,K_EST_BoNS,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+TeBE,K_EST_TeBE,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+TeBS,K_EST_TeBS,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+TeNE,K_EST_TeNE,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+TrBE,K_EST_TrBE,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+TrBR,K_EST_TrBR,0.120000,0.012000,0.228000,TRUE,saplings m-2,S18a Tab S6,establishment rate,LPJmL4 default,TRUE,establishment
+BoBS,K_LATOSA_BoBS,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+BoNE,K_LATOSA_BoNE,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+BoNS,K_LATOSA_BoNS,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+TeBE,K_LATOSA_TeBE,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+TeBS,K_LATOSA_TeBS,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+TeNE,K_LATOSA_TeNE,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+TrBE,K_LATOSA_TrBE,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+TrBR,K_LATOSA_TrBR,4000.000000,2000.000000,6000.000000,TRUE,-,S18a Tab S6,leaf area to sapwood area,LPJmL4 default,TRUE,allometry
+global,K_ROOT10_LITTER,0.300000,0.150000,0.450000,FALSE,a-1,S18a Tab S6,mean residence time of roots in litter,LPJmL4 default,,decomposition
+BoBS,K_LITTER10_LEAF_BoBS,0.940000,0.470000,1.410000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+BoNE,K_LITTER10_LEAF_BoNE,0.760000,0.380000,1.140000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+BoNS,K_LITTER10_LEAF_BoNS,0.760000,0.380000,1.140000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+PoH,K_LITTER10_LEAF_PoH,1.200000,0.600000,1.800000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TeBE,K_LITTER10_LEAF_TeBE,0.860000,0.430000,1.290000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TeBS,K_LITTER10_LEAF_TeBS,0.950000,0.475000,1.425000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TeH,K_LITTER10_LEAF_TeH,1.200000,0.600000,1.800000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TeNE,K_LITTER10_LEAF_TeNE,0.700000,0.350000,1.050000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TrBE,K_LITTER10_LEAF_TrBE,0.930000,0.465000,1.395000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TrBR,K_LITTER10_LEAF_TrBR,1.170000,0.585000,1.755000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+TrH,K_LITTER10_LEAF_TrH,0.970000,0.485000,1.455000,TRUE,a-1,S18a Tab S7,leaf litter turnover rate,LPJmL4 default,,turnover
+BoBS,K_LITTER10_WOOD_BoBS,0.104000,0.052000,0.156000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+BoNE,K_LITTER10_WOOD_BoNE,0.041000,0.020500,0.061500,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+BoNS,K_LITTER10_WOOD_BoNS,0.041000,0.020500,0.061500,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+PoH,K_LITTER10_WOOD_PoH,999.000000,998.000000,1000.000000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TeBE,K_LITTER10_WOOD_TeBE,0.104000,0.052000,0.156000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TeBS,K_LITTER10_WOOD_TeBS,0.104000,0.052000,0.156000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TeH,K_LITTER10_WOOD_TeH,999.000000,998.000000,1000.000000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TeNE,K_LITTER10_WOOD_TeNE,0.041000,0.020500,0.061500,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TrBE,K_LITTER10_WOOD_TrBE,0.039000,0.019500,0.058500,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TrBR,K_LITTER10_WOOD_TrBR,0.039000,0.019500,0.058500,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+TrH,K_LITTER10_WOOD_TrH,999.000000,998.000000,1000.000000,TRUE,a-1,S18a Tab S7,woody litter turnover rate,LPJmL4 default,,turnover
+global,K_MORT,0.200000,0.050000,0.350000,FALSE,-,S18a Tab S6,coefficient of growth efficiency for mortality,LPJmL4 default,TRUE,mortality
+global,K_ROOT10_FASTSOIL,0.030000,0.015000,0.045000,FALSE,a-1,S18a Tab S6,mean residence time of roots in fast soil carbon pool,LPJmL4 default,,decomposition
+global,K_ROOT10_SLOWSOIL,0.001000,0.000500,0.001500,FALSE,a-1,S18a Tab S6,mean residence time of roots in slow soil carbon pool,LPJmL4 default,,decomposition
+BoBS,LIGHT_BASE_BoBS,59.780000,29.890000,89.670000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+BoNE,LIGHT_BASE_BoNE,3.040000,1.520000,4.560000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+BoNS,LIGHT_BASE_BoNS,130.100000,65.050000,195.150000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+PoH,LIGHT_BASE_PoH,50.000000,25.000000,75.000000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TeBE,LIGHT_BASE_TeBE,39.320000,19.660000,58.980000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TeBS,LIGHT_BASE_TeBS,59.780000,29.890000,89.670000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TeH,LIGHT_BASE_TeH,75.940000,37.970000,113.910000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TeNE,LIGHT_BASE_TeNE,4.872000,2.436000,7.308000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TrBE,LIGHT_BASE_TrBE,55.530000,27.765000,83.295000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TrBR,LIGHT_BASE_TrBR,13.010000,6.505000,19.515000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+TrH,LIGHT_BASE_TrH,69.900000,34.950000,104.850000,TRUE,W m-2,F14 Tab S5,inflection point of light-limiting function,LPJmL4 default,,phenology
+BoBS,LIGHT_SLOPE_BoBS,58.000000,29.000000,87.000000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+BoNE,LIGHT_SLOPE_BoNE,14.000000,7.000000,21.000000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+BoNS,LIGHT_SLOPE_BoNS,95.000000,47.500000,142.500000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+PoH,LIGHT_SLOPE_PoH,23.000000,11.500000,34.500000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TeBE,LIGHT_SLOPE_TeBE,18.830000,9.415000,28.245000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TeBS,LIGHT_SLOPE_TeBS,58.000000,29.000000,87.000000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TeH,LIGHT_SLOPE_TeH,23.000000,11.500000,34.500000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TeNE,LIGHT_SLOPE_TeNE,20.000000,10.000000,30.000000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TrBE,LIGHT_SLOPE_TrBE,77.170000,38.585000,115.755000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TrBR,LIGHT_SLOPE_TrBR,23.000000,11.500000,34.500000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+TrH,LIGHT_SLOPE_TrH,64.230000,32.115000,96.345000,TRUE,1/(W m2),F14 Tab S5,Slope of light-limiting function,LPJmL4 default,,phenology
+BoBS,LIGHT_TAU_BoBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNE,LIGHT_TAU_BoNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNS,LIGHT_TAU_BoNS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+PoH,LIGHT_TAU_PoH,0.380000,0.190000,0.570000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBE,LIGHT_TAU_TeBE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBS,LIGHT_TAU_TeBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeH,LIGHT_TAU_TeH,0.220000,0.110000,0.330000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeNE,LIGHT_TAU_TeNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBE,LIGHT_TAU_TrBE,0.520000,0.260000,0.780000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBR,LIGHT_TAU_TrBR,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrH,LIGHT_TAU_TrH,0.400000,0.200000,0.600000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoBS,LIGHTEXTCOEFF_BoBS,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+BoNE,LIGHTEXTCOEFF_BoNE,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+BoNS,LIGHTEXTCOEFF_BoNS,0.600000,0.500000,0.700000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+PoH,LIGHTEXTCOEFF_PoH,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TeBE,LIGHTEXTCOEFF_TeBE,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TeBS,LIGHTEXTCOEFF_TeBS,0.600000,0.500000,0.700000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TeH,LIGHTEXTCOEFF_TeH,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TeNE,LIGHTEXTCOEFF_TeNE,0.400000,0.300000,0.500000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TrBE,LIGHTEXTCOEFF_TrBE,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TrBR,LIGHTEXTCOEFF_TrBR,0.500000,0.400000,0.600000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+TrH,LIGHTEXTCOEFF_TrH,0.400000,0.300000,0.500000,TRUE,-,S18a Tab S5,light extinction coefficient in Lambert-Beer relationship,LPJmL4 default,TRUE,albedo/FAPAR
+BoBS,LONGEVITY_BoBS,0.500000,0.250000,0.750000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+BoNE,LONGEVITY_BoNE,4.000000,2.000000,6.000000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+BoNS,LONGEVITY_BoNS,0.650000,0.325000,0.975000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+PoH,LONGEVITY_PoH,0.350000,0.175000,0.525000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TeBE,LONGEVITY_TeBE,1.600000,0.800000,2.400000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TeBS,LONGEVITY_TeBS,0.450000,0.225000,0.675000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TeH,LONGEVITY_TeH,0.350000,0.175000,0.525000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TeNE,LONGEVITY_TeNE,4.000000,2.000000,6.000000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TrBE,LONGEVITY_TrBE,1.600000,0.800000,2.400000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TrBR,LONGEVITY_TrBR,0.500000,0.250000,0.750000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+TrH,LONGEVITY_TrH,0.400000,0.200000,0.600000,TRUE,a,S18a Tab S8,leaf longevity,LPJmL4 default,TRUE,turnover
+BoBS,MIN_TEMPRANGE_BoBS,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+BoNE,MIN_TEMPRANGE_BoNE,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+BoNS,MIN_TEMPRANGE_BoNS,30.000000,25.000000,35.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+PoH,MIN_TEMPRANGE_PoH,18.000000,13.000000,23.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TeBE,MIN_TEMPRANGE_TeBE,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TeBS,MIN_TEMPRANGE_TeBS,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TeH,MIN_TEMPRANGE_TeH,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TeNE,MIN_TEMPRANGE_TeNE,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TrBE,MIN_TEMPRANGE_TrBE,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TrBR,MIN_TEMPRANGE_TrBR,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TrH,MIN_TEMPRANGE_TrH,-999.000000,-1000.000000,-998.000000,TRUE,K,NA,Minimum temperature amplitude for survival,LPJmL4 default,,bioclimatic limits
+TrBR,MINWSCAL_TrBR,0.850000,0.000000,1.000000,TRUE,-,Sitch et al. 2003,Water avilability treshold for leaf development,LPJmL4 default,,old phenology
+BoBS,MORT_MAX_BoBS,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+BoNE,MORT_MAX_BoNE,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+BoNS,MORT_MAX_BoNS,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+TeBE,MORT_MAX_TeBE,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+TeBS,MORT_MAX_TeBS,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+TeNE,MORT_MAX_TeNE,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+TrBE,MORT_MAX_TrBE,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+TrBR,MORT_MAX_TrBR,0.030000,0.003000,0.060000,TRUE,a-1,S18a Tab S6,asymptotic maximum mortality rate,LPJmL4 default,TRUE,mortality
+BoBS,REPROD_COST_BoBS,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoNE,REPROD_COST_BoNE,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoNS,REPROD_COST_BoNS,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+PoH,REPROD_COST_PoH,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeBE,REPROD_COST_TeBE,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeBS,REPROD_COST_TeBS,0.100000,0.050000,0.130000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeH,REPROD_COST_TeH,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeNE,REPROD_COST_TeNE,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrBE,REPROD_COST_TrBE,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrBR,REPROD_COST_TrBR,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrH,REPROD_COST_TrH,0.100000,0.050000,0.200000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoBS,RESPCOEFF_BoBS,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoNE,RESPCOEFF_BoNE,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoNS,RESPCOEFF_BoNS,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+PoH,RESPCOEFF_PoH,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeBE,RESPCOEFF_TeBE,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeBS,RESPCOEFF_TeBS,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeH,RESPCOEFF_TeH,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TeNE,RESPCOEFF_TeNE,1.200000,0.600000,1.800000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrBE,RESPCOEFF_TrBE,0.200000,0.100000,0.300000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrBR,RESPCOEFF_TrBR,0.200000,0.100000,0.300000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+TrH,RESPCOEFF_TrH,0.200000,0.100000,0.300000,TRUE,NA,pft.js,NA,LPJmL4 default,,NA
+BoBS,SCORCHHEIGHT_F_BoBS,0.094000,0.047000,0.141000,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+BoNE,SCORCHHEIGHT_F_BoNE,0.110000,0.055000,0.165000,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+BoNS,SCORCHHEIGHT_F_BoNS,0.094000,0.047000,0.141000,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+TeBE,SCORCHHEIGHT_F_TeBE,0.371000,0.185500,0.556500,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+TeBS,SCORCHHEIGHT_F_TeBS,0.094000,0.047000,0.141000,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+TeNE,SCORCHHEIGHT_F_TeNE,0.100000,0.050000,0.150000,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+TrBE,SCORCHHEIGHT_F_TrBE,0.148700,0.074350,0.223050,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+TrBR,SCORCHHEIGHT_F_TrBR,0.061000,0.030500,0.091500,TRUE,NA,S18a Tab S9,scorch height,LPJmL4 default,,fire mortality
+BoBS,SNOWCANOPYFRAC_BoBS,0.150000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+BoNE,SNOWCANOPYFRAC_BoNE,0.100000,0.010000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+BoNS,SNOWCANOPYFRAC_BoNS,0.150000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+PoH,SNOWCANOPYFRAC_PoH,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TeBE,SNOWCANOPYFRAC_TeBE,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TeBS,SNOWCANOPYFRAC_TeBS,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TeH,SNOWCANOPYFRAC_TeH,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TeNE,SNOWCANOPYFRAC_TeNE,0.100000,0.010000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TrBE,SNOWCANOPYFRAC_TrBE,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TrBR,SNOWCANOPYFRAC_TrBR,0.500000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+TrH,SNOWCANOPYFRAC_TrH,0.400000,0.100000,0.900000,TRUE,-,F14 Tab S4,Maximum fraction of snow in the green canopy,LPJmL4 default,,albedo/FAPAR
+BoBS,TEMP_CO2_HIGH_BoBS,38.000000,33.000000,43.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+BoNE,TEMP_CO2_HIGH_BoNE,38.000000,33.000000,43.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+BoNS,TEMP_CO2_HIGH_BoNS,38.000000,33.000000,43.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+PoH,TEMP_CO2_HIGH_PoH,45.000000,40.000000,50.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TeBE,TEMP_CO2_HIGH_TeBE,42.000000,37.000000,47.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TeBS,TEMP_CO2_HIGH_TeBS,38.000000,33.000000,43.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TeH,TEMP_CO2_HIGH_TeH,45.000000,40.000000,50.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TeNE,TEMP_CO2_HIGH_TeNE,42.000000,37.000000,47.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TrBE,TEMP_CO2_HIGH_TrBE,55.000000,50.000000,60.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TrBR,TEMP_CO2_HIGH_TrBR,55.000000,50.000000,60.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+TrH,TEMP_CO2_HIGH_TrH,55.000000,50.000000,60.000000,TRUE,°C,(S18a Tab S13),upper temperature limit for CO2,LPJmL4 default,,productivity
+BoBS,TEMP_CO2_LOW_BoBS,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+BoNE,TEMP_CO2_LOW_BoNE,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+BoNS,TEMP_CO2_LOW_BoNS,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+PoH,TEMP_CO2_LOW_PoH,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TeBE,TEMP_CO2_LOW_TeBE,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TeBS,TEMP_CO2_LOW_TeBS,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TeH,TEMP_CO2_LOW_TeH,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TeNE,TEMP_CO2_LOW_TeNE,-4.000000,-9.000000,1.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TrBE,TEMP_CO2_LOW_TrBE,2.000000,-3.000000,7.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TrBR,TEMP_CO2_LOW_TrBR,2.000000,-3.000000,7.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+TrH,TEMP_CO2_LOW_TrH,6.000000,1.000000,11.000000,TRUE,°C,(S18a Tab S13),lower temperature limit for CO2,LPJmL4 default,,productivity
+BoBS,TEMP_HIGH_BoBS,-2.000000,-17.000000,13.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoNE,TEMP_HIGH_BoNE,-2.000000,-17.000000,13.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoNS,TEMP_HIGH_BoNS,-5.400000,-20.400000,9.600000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+PoH,TEMP_HIGH_PoH,-2.600000,-17.600000,12.400000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeBE,TEMP_HIGH_TeBE,18.800000,3.800000,33.800000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeBS,TEMP_HIGH_TeBS,15.500000,0.500000,30.500000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeH,TEMP_HIGH_TeH,15.500000,0.500000,30.500000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeNE,TEMP_HIGH_TeNE,22.000000,7.000000,37.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrBE,TEMP_HIGH_TrBE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrBR,TEMP_HIGH_TrBR,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrH,TEMP_HIGH_TrH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S4,upper coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoBS,TEMP_LOW_BoBS,-999.000000,-1000.000000,-998.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoNE,TEMP_LOW_BoNE,-32.500000,-47.500000,-17.500000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoNS,TEMP_LOW_BoNS,-46.000000,-61.000000,-31.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+PoH,TEMP_LOW_PoH,-999.000000,-1000.000000,-998.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeBE,TEMP_LOW_TeBE,3.000000,-12.000000,18.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeBS,TEMP_LOW_TeBS,-17.700000,-32.700000,-2.700000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeH,TEMP_LOW_TeH,-39.000000,-54.000000,-24.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TeNE,TEMP_LOW_TeNE,-2.000000,-17.000000,13.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrBE,TEMP_LOW_TrBE,15.500000,0.500000,30.500000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrBR,TEMP_LOW_TrBR,15.500000,0.500000,30.500000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+TrH,TEMP_LOW_TrH,7.000000,-8.000000,22.000000,TRUE,°C,S18a Tab S4,lower coldest monthly mean temperature,LPJmL4 default,,bioclimatic limits
+BoBS,TEMP_PHOTOS_HIGH_BoBS,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+BoNE,TEMP_PHOTOS_HIGH_BoNE,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+BoNS,TEMP_PHOTOS_HIGH_BoNS,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+PoH,TEMP_PHOTOS_HIGH_PoH,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeBE,TEMP_PHOTOS_HIGH_TeBE,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeBS,TEMP_PHOTOS_HIGH_TeBS,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeH,TEMP_PHOTOS_HIGH_TeH,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeNE,TEMP_PHOTOS_HIGH_TeNE,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrBE,TEMP_PHOTOS_HIGH_TrBE,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrBR,TEMP_PHOTOS_HIGH_TrBR,30.000000,25.000000,35.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrH,TEMP_PHOTOS_HIGH_TrH,45.000000,40.000000,50.000000,TRUE,°C,(S18a Tab S13),upper limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+BoBS,TEMP_PHOTOS_LOW_BoBS,15.000000,10.000000,20.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+BoNE,TEMP_PHOTOS_LOW_BoNE,15.000000,10.000000,20.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+BoNS,TEMP_PHOTOS_LOW_BoNS,15.000000,10.000000,20.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+PoH,TEMP_PHOTOS_LOW_PoH,10.000000,5.000000,15.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeBE,TEMP_PHOTOS_LOW_TeBE,20.000000,15.000000,25.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeBS,TEMP_PHOTOS_LOW_TeBS,20.000000,15.000000,25.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeH,TEMP_PHOTOS_LOW_TeH,10.000000,5.000000,15.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TeNE,TEMP_PHOTOS_LOW_TeNE,20.000000,15.000000,25.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrBE,TEMP_PHOTOS_LOW_TrBE,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrBR,TEMP_PHOTOS_LOW_TrBR,25.000000,20.000000,30.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+TrH,TEMP_PHOTOS_LOW_TrH,20.000000,15.000000,25.000000,TRUE,°C,(S18a Tab S13),lower limit of temperature optimum for photosynthesis,LPJmL4 default,,productivity
+global,THETA,0.700000,0.560000,0.840000,FALSE,-,S18a Tab S6,Co-limitation (shape) parameter,LPJmL4 default,TRUE,productivity
+BoBS,TMAX_BASE_BoBS,41.510000,20.755000,62.265000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+BoNE,TMAX_BASE_BoNE,27.320000,13.660000,40.980000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+BoNS,TMAX_BASE_BoNS,44.600000,22.300000,66.900000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+PoH,TMAX_BASE_PoH,26.120000,13.060000,39.180000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TeBE,TMAX_BASE_TeBE,41.120000,20.560000,61.680000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TeBS,TMAX_BASE_TeBS,41.510000,20.755000,62.265000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TeH,TMAX_BASE_TeH,32.040000,16.020000,48.060000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TeNE,TMAX_BASE_TeNE,35.260000,17.630000,52.890000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TrBE,TMAX_BASE_TrBE,38.640000,19.320000,57.960000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TrBR,TMAX_BASE_TrBR,38.640000,19.320000,57.960000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+TrH,TMAX_BASE_TrH,29.160000,14.580000,43.740000,TRUE,°C,F14 Tab S5,inflection point of heat-limiting function,LPJmL4 default,,phenology
+BoBS,TMAX_SLOPE_BoBS,1.740000,0.870000,2.610000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+BoNE,TMAX_SLOPE_BoNE,0.240000,0.120000,0.360000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+BoNS,TMAX_SLOPE_BoNS,0.240000,0.120000,0.360000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+PoH,TMAX_SLOPE_PoH,0.240000,0.120000,0.360000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TeBE,TMAX_SLOPE_TeBE,0.980000,0.490000,1.470000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TeBS,TMAX_SLOPE_TeBS,1.740000,0.870000,2.610000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TeH,TMAX_SLOPE_TeH,0.240000,0.120000,0.360000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TeNE,TMAX_SLOPE_TeNE,1.830000,0.915000,2.745000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TrBE,TMAX_SLOPE_TrBE,1.860000,0.930000,2.790000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TrBR,TMAX_SLOPE_TrBR,1.625000,0.812500,2.437500,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+TrH,TMAX_SLOPE_TrH,1.470000,0.735000,2.205000,TRUE,1/°C,F14 Tab S5,Slope of heat-limiting function,LPJmL4 default,,phenology
+BoBS,TMAX_TAU_BoBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNE,TMAX_TAU_BoNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNS,TMAX_TAU_BoNS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+PoH,TMAX_TAU_PoH,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBE,TMAX_TAU_TeBE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBS,TMAX_TAU_TeBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeH,TMAX_TAU_TeH,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeNE,TMAX_TAU_TeNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBE,TMAX_TAU_TrBE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBR,TMAX_TAU_TrBR,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrH,TMAX_TAU_TrH,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoBS,TMIN_BASE_BoBS,2.045000,1.022500,3.067500,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+BoNE,TMIN_BASE_BoNE,-7.516000,-3.758000,-11.274000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+BoNS,TMIN_BASE_BoNS,-4.165000,-2.082500,-6.247500,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+PoH,TMIN_BASE_PoH,2.790000,1.395000,4.185000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TeBE,TMIN_BASE_TeBE,-0.629700,-0.314850,-0.944550,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TeBS,TMIN_BASE_TeBS,13.690000,6.845000,20.535000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TeH,TMIN_BASE_TeH,4.979000,2.489500,7.468500,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TeNE,TMIN_BASE_TeNE,-7.813000,-3.906500,-11.719500,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TrBE,TMIN_BASE_TrBE,8.300000,4.150000,12.450000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TrBR,TMIN_BASE_TrBR,7.660000,3.830000,11.490000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+TrH,TMIN_BASE_TrH,6.418000,3.209000,9.627000,TRUE,°C,F14 Tab S5,inflection point of cold-limiting function,LPJmL4 default,,phenology
+BoBS,TMIN_SLOPE_BoBS,0.215300,0.107650,0.322950,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+BoNE,TMIN_SLOPE_BoNE,0.100800,0.050400,0.151200,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+BoNS,TMIN_SLOPE_BoNS,0.150000,0.075000,0.225000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+PoH,TMIN_SLOPE_PoH,0.130000,0.065000,0.195000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TeBE,TMIN_SLOPE_TeBE,0.550000,0.275000,0.825000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TeBS,TMIN_SLOPE_TeBS,0.259100,0.129550,0.388650,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TeH,TMIN_SLOPE_TeH,0.311100,0.155550,0.466650,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TeNE,TMIN_SLOPE_TeNE,0.217200,0.108600,0.325800,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TrBE,TMIN_SLOPE_TrBE,1.010000,0.505000,1.515000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TrBR,TMIN_SLOPE_TrBR,0.240000,0.120000,0.360000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+TrH,TMIN_SLOPE_TrH,0.910000,0.455000,1.365000,TRUE,1/°C,F14 Tab S5,Slope of cold-limiting function,LPJmL4 default,,phenology
+BoBS,TMIN_TAU_BoBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNE,TMIN_TAU_BoNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNS,TMIN_TAU_BoNS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+PoH,TMIN_TAU_PoH,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBE,TMIN_TAU_TeBE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBS,TMIN_TAU_TeBS,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeH,TMIN_TAU_TeH,0.010110,0.005055,0.015165,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeNE,TMIN_TAU_TeNE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBE,TMIN_TAU_TrBE,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBR,TMIN_TAU_TrBR,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrH,TMIN_TAU_TrH,0.200000,0.100000,0.300000,TRUE,-,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoBS,TURNOVER_LEAF_BoBS,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+BoNE,TURNOVER_LEAF_BoNE,4.000000,2.000000,6.000000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+BoNS,TURNOVER_LEAF_BoNS,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+PoH,TURNOVER_LEAF_PoH,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TeBE,TURNOVER_LEAF_TeBE,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TeBS,TURNOVER_LEAF_TeBS,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TeH,TURNOVER_LEAF_TeH,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TeNE,TURNOVER_LEAF_TeNE,4.000000,2.000000,6.000000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TrBE,TURNOVER_LEAF_TrBE,2.000000,1.000000,3.000000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TrBR,TURNOVER_LEAF_TrBR,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+TrH,TURNOVER_LEAF_TrH,1.000000,0.500000,1.500000,TRUE,a,S18a Tab S8,leaf turnover time,LPJmL4 default,,turnover
+BoBS,TURNOVER_SAPWOOD_BoBS,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+BoNE,TURNOVER_SAPWOOD_BoNE,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+BoNS,TURNOVER_SAPWOOD_BoNS,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+TeBE,TURNOVER_SAPWOOD_TeBE,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+TeBS,TURNOVER_SAPWOOD_TeBS,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+TeNE,TURNOVER_SAPWOOD_TeNE,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+TrBE,TURNOVER_SAPWOOD_TrBE,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+TrBR,TURNOVER_SAPWOOD_TrBR,20.000000,10.000000,100.000000,TRUE,a,S18a Tab S8,sapwood turnover time,LPJmL4 default,TRUE,turnover
+BoBS,TWMAX_BoBS,23.000000,18.000000,30.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoNE,TWMAX_BoNE,23.000000,18.000000,30.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoNS,TWMAX_BoNS,23.000000,18.000000,30.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoBS,TWMAX_DAILY_BoBS,25.000000,18.000000,32.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoNE,TWMAX_DAILY_BoNE,25.000000,18.000000,32.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoNS,TWMAX_DAILY_BoNS,25.000000,18.000000,32.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+PoH,TWMAX_DAILY_PoH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeBE,TWMAX_DAILY_TeBE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeBS,TWMAX_DAILY_TeBS,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeH,TWMAX_DAILY_TeH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeNE,TWMAX_DAILY_TeNE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrBE,TWMAX_DAILY_TrBE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrBR,TWMAX_DAILY_TrBR,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrH,TWMAX_DAILY_TrH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+PoH,TWMAX_PoH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeBE,TWMAX_TeBE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeBS,TWMAX_TeBS,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeH,TWMAX_TeH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TeNE,TWMAX_TeNE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrBE,TWMAX_TrBE,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrBR,TWMAX_TrBR,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+TrH,TWMAX_TrH,999.000000,998.000000,1000.000000,TRUE,°C,S18a Tab S6,Parameter for heat damage function,LPJmL4 default,,mortality
+BoBS,WSCAL_BASE_BoBS,20.960000,10.480000,31.440000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+BoNE,WSCAL_BASE_BoNE,0.007695,0.003848,0.011543,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+BoNS,WSCAL_BASE_BoNS,2.344000,1.172000,3.516000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+PoH,WSCAL_BASE_PoH,1.000000,0.500000,1.500000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TeBE,WSCAL_BASE_TeBE,8.821000,4.410500,13.231500,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TeBS,WSCAL_BASE_TeBS,20.960000,10.480000,31.440000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TeH,WSCAL_BASE_TeH,53.070000,26.535000,79.605000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TeNE,WSCAL_BASE_TeNE,8.613000,4.306500,12.919500,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TrBE,WSCAL_BASE_TrBE,4.997000,2.498500,7.495500,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TrBR,WSCAL_BASE_TrBR,22.210000,11.105000,33.315000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+TrH,WSCAL_BASE_TrH,41.720000,20.860000,62.580000,TRUE,%/100,F14 Tab S5,inflection point of water-limiting function,LPJmL4 default,,phenology
+BoBS,WSCAL_SLOPE_BoBS,5.240000,2.620000,7.860000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+BoNE,WSCAL_SLOPE_BoNE,5.000000,2.500000,7.500000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+BoNS,WSCAL_SLOPE_BoNS,5.000000,2.500000,7.500000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+PoH,WSCAL_SLOPE_PoH,0.880000,0.440000,1.320000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TeBE,WSCAL_SLOPE_TeBE,5.000000,2.500000,7.500000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TeBS,WSCAL_SLOPE_TeBS,5.240000,2.620000,7.860000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TeH,WSCAL_SLOPE_TeH,0.522200,0.261100,0.783300,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TeNE,WSCAL_SLOPE_TeNE,5.000000,2.500000,7.500000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TrBE,WSCAL_SLOPE_TrBE,5.140000,2.570000,7.710000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TrBR,WSCAL_SLOPE_TrBR,7.970000,3.985000,11.955000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+TrH,WSCAL_SLOPE_TrH,0.100000,0.050000,0.150000,TRUE,%/100,F14 Tab S5,Slope of water-limiting function,LPJmL4 default,,phenology
+BoBS,WSCAL_TAU_BoBS,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNE,WSCAL_TAU_BoNE,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoNS,WSCAL_TAU_BoNS,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+PoH,WSCAL_TAU_PoH,0.940000,0.470000,1.410000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBE,WSCAL_TAU_TeBE,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeBS,WSCAL_TAU_TeBS,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeH,WSCAL_TAU_TeH,0.010010,0.005005,0.015015,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TeNE,WSCAL_TAU_TeNE,0.800000,0.400000,1.200000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBE,WSCAL_TAU_TrBE,0.440000,0.220000,0.660000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrBR,WSCAL_TAU_TrBR,0.134800,0.067400,0.202200,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+TrH,WSCAL_TAU_TrH,0.170000,0.085000,0.255000,TRUE,%/100,F14 Tab S5,Change rate of actual to previous day value,LPJmL4 default,,phenology
+BoBS,SIF_A_BoBS,0.311000,0.217700,0.404300,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+BoNE,SIF_A_BoNE,0.190000,0.133000,0.247000,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+BoNS,SIF_A_BoNS,0.233000,0.163100,0.302900,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+PoH,SIF_A_PoH,0.469000,0.328300,0.609700,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TeBE,SIF_A_TeBE,0.216000,0.151200,0.280800,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TeBS,SIF_A_TeBS,0.278000,0.194600,0.361400,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TeH,SIF_A_TeH,0.421000,0.294700,0.547300,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TeNE,SIF_A_TeNE,0.220000,0.154000,0.286000,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TrBE,SIF_A_TrBE,0.100000,0.080000,0.487500,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TrBR,SIF_A_TrBR,0.258000,0.180600,0.335400,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+TrH,SIF_A_TrH,0.375000,0.262500,0.487500,TRUE,-,Linear regression against FLUXCOM GPP,slope in GPP-SIF relationship,LPJmL4 default,,productivity
+BoBS,SIF_B_BoBS,0.092000,0.064400,0.119600,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+BoNE,SIF_B_BoNE,0.128000,0.089600,0.166400,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+BoNS,SIF_B_BoNS,-0.019000,-0.024700,-0.013300,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+PoH,SIF_B_PoH,-0.043000,-0.055900,-0.030100,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TeBE,SIF_B_TeBE,0.445000,0.311500,0.578500,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TeBS,SIF_B_TeBS,0.404000,0.282800,0.525200,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TeH,SIF_B_TeH,0.106000,0.074200,0.137800,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TeNE,SIF_B_TeNE,0.261000,0.182700,0.339300,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TrBE,SIF_B_TrBE,1.349000,0.137900,1.753700,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TrBR,SIF_B_TrBR,0.448000,0.313600,0.582400,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity
+TrH,SIF_B_TrH,0.197000,0.137900,0.256100,TRUE,-,Linear regression against FLUXCOM GPP,Intercept in GPP-SIF relationship,LPJmL4 default,,productivity

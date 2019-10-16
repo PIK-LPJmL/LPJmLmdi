@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Change parameters in a parameter file</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ChangeParamFile {LPJmLmdi}"><tr><td>ChangeParamFile {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Change parameters in a parameter file</h2>
+
+<h3>Description</h3>
+
+<p>The function writes values to a parameter file. It requires a 'file.template' in which the positions of the new parameter values are marked with a flag. For example, instead of a parameter of 0.5 for alphaa in a parameter file the flag ALPHAA is written. The function substitutes this flag with the new parameter value in a new file 'file.new'.</p>
+
+
+<h3>Usage</h3>
+
+<pre>ChangeParamFile(newpar, file.template, file.new, wait = FALSE, 
+    ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>newpar</code></td>
+<td>
+<p>a named vector with new parameter values</p>
+</td></tr>
+<tr valign="top"><td><code>file.template</code></td>
+<td>
+<p>file name of the template parameter with flagged parameters</p>
+</td></tr>
+<tr valign="top"><td><code>file.new</code></td>
+<td>
+<p>file name of the new parameter file</p>
+</td></tr>
+<tr valign="top"><td><code>wait</code></td>
+<td>
+<p>If TRUE wait 1 second to check if file.template exists in order to relax slow file writting.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The function works only on Unix systems because it is based on 'sed'</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# newpar &lt;- c(ALPHAA_BoNE=0.8)
+# LPJChangeParamFile(newpar, file.template="pft_template.par", file.new="pft.par")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

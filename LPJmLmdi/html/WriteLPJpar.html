@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Writes an object of class 'LPJpar' as parameter file or...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for WriteLPJpar {LPJmLmdi}"><tr><td>WriteLPJpar {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Writes an object of class 'LPJpar' as parameter file or table.</h2>
+
+<h3>Description</h3>
+
+<p>The function takes a 'LPJpar' object and writes 1) LPJ parameter files and 2) write *.txt files with parameter values in a table format.</p>
+
+
+<h3>Usage</h3>
+
+<pre>WriteLPJpar(x, file = "LPJpar", pft.par = NULL, param.par = NULL, 
+    param.only = TRUE, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>object of class 'LPJpar'</p>
+</td></tr>
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>basic file name for all output files, e.g. name of the optimization experiment</p>
+</td></tr>
+<tr valign="top"><td><code>pft.par</code></td>
+<td>
+<p>template file for PFT-specific parameters (create a template from pft.par). If NULL, parameter files will be not written but only parameter tables.</p>
+</td></tr>
+<tr valign="top"><td><code>param.par</code></td>
+<td>
+<p>template file for global parameters (create a template from param.par). If NULL, parameter files will be not written but only parameter tables.</p>
+</td></tr>
+<tr valign="top"><td><code>param.only</code></td>
+<td>
+<p>write only parameters to table (TRUE) or also parameter prior ranges (FALSE)?</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments for CheckLPJpar</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a data.frame with an overview of the written files</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="LPJpar.html">LPJpar</a></code>, <code><a href="CheckLPJpar.html">CheckLPJpar</a></code>	</p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

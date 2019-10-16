@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read and subset CLM files to LPJinput objects</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ReadLPJinput {LPJmLmdi}"><tr><td>ReadLPJinput {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read and subset CLM files to LPJinput objects</h2>
+
+<h3>Description</h3>
+
+<p>The functions reads a CLM file, selects the data according to the provided grid and returns an object of class LPJinput. </p>
+
+
+<h3>Usage</h3>
+
+<pre>ReadLPJinput(files, grid = NULL, start = NA, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>files</code></td>
+<td>
+<p>character vector of CLM or binary file names</p>
+</td></tr>
+<tr valign="top"><td><code>grid</code></td>
+<td>
+<p>Matrix of grid cells with 2 columns: longitude and latitude (optional). If NULL the data is returned for the grid of the first CLM file. If a grid is provided the data is subesetted for the specified grid cells.</p>
+</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+<p>first year to read</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Further arguments to ReadCLM or ReadBIN</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a list of class &quot;LPJinput&quot;.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="WriteLPJinput.html">WriteLPJinput</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# lpjinput &lt;- ReadLPJinput("cru_ts_3.20.1901.2011.tmp.clm", grid=cbind(c(136.75, 137.25, 160.75,168.75), c(45.25, 65.25, 68.75, 63.75)))
+# str(lpjinput)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read a CLM file to a SpatialPixelsDataFrame</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ReadCLM {LPJmLmdi}"><tr><td>ReadCLM {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read a CLM file to a SpatialPixelsDataFrame</h2>
+
+<h3>Usage</h3>
+
+<pre>ReadCLM(file.clm, start = NA, end = NA, start.year = NA, grid = NULL, 
+    nbands = NA, size = NA, file.grid = NA, endian.data = NA, 
+    endian.grid = "big", data.type = integer(), ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>file.clm</code></td>
+<td>
+<p>CLM file name with extension *.clm</p>
+</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+<p>first year to be read</p>
+</td></tr>
+<tr valign="top"><td><code>end</code></td>
+<td>
+<p>last year to be read, reads until last year in case of NA</p>
+</td></tr>
+<tr valign="top"><td><code>start.year</code></td>
+<td>
+<p>first year in the dataset, read from header information in case NA</p>
+</td></tr>
+<tr valign="top"><td><code>grid</code></td>
+<td>
+<p>a matrix of coordinates (lon, lat) if data should be read only for specific cells, if NULL the data for all grid cells is read</p>
+</td></tr>
+<tr valign="top"><td><code>nbands</code></td>
+<td>
+<p>number of bands per year, read from header information in case NA</p>
+</td></tr>
+<tr valign="top"><td><code>size</code></td>
+<td>
+<p>The number of bytes per element in the byte stream.</p>
+</td></tr>
+<tr valign="top"><td><code>file.grid</code></td>
+<td>
+<p>file name of the corresponding grid file</p>
+</td></tr>
+<tr valign="top"><td><code>endian.data</code></td>
+<td>
+<p>endinaess of the data file</p>
+</td></tr>
+<tr valign="top"><td><code>endian.grid</code></td>
+<td>
+<p>endianess of the grid file</p>
+</td></tr>
+<tr valign="top"><td><code>data.type</code></td>
+<td>
+<p>type of the data</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Further arguments (currently not used).</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="WriteCLM.html">WriteCLM</a></code></p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

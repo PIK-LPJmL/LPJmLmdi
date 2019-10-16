@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Sum-of-squared residuals error</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for SSE {LPJmLmdi}"><tr><td>SSE {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Sum-of-squared residuals error</h2>
+
+<h3>Description</h3>
+
+<p>The function implements the sum-of-squared residuals error as cost function</p>
+
+
+<h3>Usage</h3>
+
+<pre>SSE(sim, obs, unc)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>sim</code></td>
+<td>
+<p>vector of simulations</p>
+</td></tr>
+<tr valign="top"><td><code>obs</code></td>
+<td>
+<p>vector of observations</p>
+</td></tr>
+<tr valign="top"><td><code>unc</code></td>
+<td>
+<p>vector of observation uncertainties</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+obs &lt;- rnorm(10, 0, 2)
+sim &lt;- obs + rnorm(10, 0.05, 0.01)
+unc &lt;- 0.01
+SSE(sim, obs, unc)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

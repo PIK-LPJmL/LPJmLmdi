@@ -1,0 +1,29 @@
+#!/bin/bash                                                                     
+#SBATCH --qos=short                                                             
+#SBATCH --partition=broadwell                                                    
+#SBATCH --ntasks=5                                                              
+#SBATCH --cpus-per-task=2 # for 64GB total                                                                                             
+#SBATCH --job-name=LPJmLmdi                                              
+#SBATCH --workdir=/p/projects/biodiversity/drueke/LPJmLmdi/LPJmLmdi                    
+##SBATCH --output=outfile.%j.out                                                 
+##SBATCH --error=outfile.%j.err                                                  
+#SBATCH --mail-type=end                                                         
+
+module purge
+module load R
+module load intel/2018.1
+module load netcdf
+module load netcdf-c/4.2.1.1/serial
+module list
+module load udunits
+module load json-c/0.13
+module load intel/2018.1
+module load mpi/intel/5.1.3
+module load R
+#unset I_MPI_DAPL_UD_PROVIDER
+export I_MPI_PMI_LIBRARY=/p/system/slurm/lib/libpmi.so
+export R_LIBS_USER=/p/projects/biodiversity/R
+
+# call R                                                                        
+#R --no-save --file=.R --silent --slave
+R CMD BATCH --vanilla inst_gldas/LPJmL-MDI_example_gldas.R ./optim_experiment.Rout

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Combine single rescue files into one rescue file</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for CombineRescueFiles {LPJmLmdi}"><tr><td>CombineRescueFiles {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Combine single rescue files into one rescue file</h2>
+
+<h3>Description</h3>
+
+<p>Within OptimizeLPJgenoud, RunLPJ creates rescue file (&quot;_.rescue0.RData&quot;) that save the parameter vectors and cost of each individual during optimization. These files allow to create restart files to restart OptimizeLPJgenoud (<code><a href="CreateRestartFromRescue.html">CreateRestartFromRescue</a></code>). During OptimizeLPJgenoud many rescue files can be created. The function CombineRescueFiles reads the individual files, combines the rescue objects, saves it in one &quot;rescue.RData&quot; file, and deletes the single files.</p>
+
+
+<h3>Usage</h3>
+
+<pre>CombineRescueFiles(files.rescue, remove = TRUE)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>files.rescue</code></td>
+<td>
+<p>file names</p>
+</td></tr>
+<tr valign="top"><td><code>remove</code></td>
+<td>
+<p>save new rescue file and delete single rescue files?</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a list of class &quot;rescue&quot;, whereby each element corresponds to one individual of the genetic optimization with two entries: 'cost' (cost of the individual) and 'dpar' (parameter scaled relative to the prior parameter).</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="CreateRestartFromRescue.html">CreateRestartFromRescue</a></code>, <code><a href="plot.rescue.html">plot.rescue</a></code></p>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

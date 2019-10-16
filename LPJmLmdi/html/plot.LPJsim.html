@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Plots a LPJsim object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for plot.LPJsim {LPJmLmdi}"><tr><td>plot.LPJsim {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Plots a LPJsim object</h2>
+
+<h3>Description</h3>
+
+<p>The function plots a LPJsim object: monthly, annual time series or map of grid cells</p>
+
+
+<h3>Usage</h3>
+
+<pre>## S3 method for class 'LPJsim'
+plot(x, what = "annual", start = NA, end = NA, omit0 = TRUE, 
+    AggFun = AggMeanNULL, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>an object of class 'LPJsim'</p>
+</td></tr>
+<tr valign="top"><td><code>what</code></td>
+<td>
+<p>What type of plot should be created? 'annual' for yearly time series, 'monthly' for monthly time series, 'daily' for daily time series, and 'grid' for a map of grid cells</p>
+</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+<p>first year for time series plot</p>
+</td></tr>
+<tr valign="top"><td><code>end</code></td>
+<td>
+<p>last year for time series plot</p>
+</td></tr>
+<tr valign="top"><td><code>omit0</code></td>
+<td>
+<p>omit variables from plotting that are only 0?</p>
+</td></tr>
+<tr valign="top"><td><code>AggFun</code></td>
+<td>
+<p>aggregation function to aggregate results to the temporal resolution as selected in 'what', for example <code><a href="AggMeanNULL.html">AggMeanNULL</a></code> for monthly or annual means, <code><a href="AggSumNULL.html">AggSumNULL</a></code> for monthly or annual sums.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ReadLPJ2ts.html">ReadLPJ2ts</a></code>, <code><a href="ReadLPJsim.html">ReadLPJsim</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# setwd(path.mylpjresult)
+# sim &lt;- ReadLPJ2ts(start=1982, end=2011)
+# plot(sim, what="annual")
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

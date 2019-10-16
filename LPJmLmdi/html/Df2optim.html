@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Convert a data.frame to a 'optim' list</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Df2optim {LPJmLmdi}"><tr><td>Df2optim {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Convert a data.frame to a <code><a href="../../stats/html/optim.html">optim</a></code> list </h2>
+
+<h3>Description</h3>
+
+<p>The function takes a 'data.frame' as created by <code>Rescue2DF</code> and converts it to a list with the same structure like the results of the <code><a href="../../stats/html/optim.html">optim</a></code> and <code><a href="../../rgenoud/html/genoud.html">genoud</a></code> functions.</p>
+
+
+<h3>Usage</h3>
+
+<pre>Df2optim(optim.df, pop.size = NA, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>optim.df</code></td>
+<td>
+<p>a 'data.frame' as created by <code>Rescue2DF</code></p>
+</td></tr>
+<tr valign="top"><td><code>pop.size</code></td>
+<td>
+<p>used population size. If NA, ngen (number of generations) and peak generation cannot be returned correctly. In this case both estimates will be 1.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.	</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="CombineRescueFiles.html">CombineRescueFiles</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# files &lt;- c(list.files(pattern="rescue.RData", recursive=TRUE), list.files(pattern="rescue0.RData", recursive=TRUE))
+# rescue.l &lt;- CombineRescueFiles(files, remove=FALSE)
+# optim.df &lt;- Rescue2Df(rescue.l)
+# opt &lt;- Rescue2optim(rescue.l)
+# opt
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

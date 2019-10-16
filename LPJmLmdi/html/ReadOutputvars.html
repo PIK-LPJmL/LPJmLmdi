@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read 'outputvars.par' to get information about LPJmL output</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ReadOutputvars {LPJmLmdi}"><tr><td>ReadOutputvars {LPJmLmdi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read 'outputvars.par' to get information about LPJmL output</h2>
+
+<h3>Description</h3>
+
+<p>LPJmL output is defined in par/outputvars.par. This file contains for each variable the id, name, variable name, description, unit, and scale. This file can be used to correctly read LPJmL output. The function is for example used within <code><a href="ReadLPJsim.html">ReadLPJsim</a></code>.</p>
+
+
+<h3>Usage</h3>
+
+<pre>ReadOutputvars(outputvars.par = NULL, ...)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>outputvars.par</code></td>
+<td>
+<p>path and file name to the LPJmL 'outputvars.par' file. If NULL the file is searched 1 level above or below the current working directory. </p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>further arguments (currently not used)</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>No details.</p>
+
+
+<h3>Value</h3>
+
+<p>The function returns a time series of class 'ts'.</p>
+
+
+<h3>Author(s)</h3>
+
+<p>Matthias Forkel &lt;mforkel@bgc-jena.mpg.de&gt; [aut, cre]</p>
+
+
+<h3>References</h3>
+
+<p>No reference.</p>
+
+
+<h3>See Also</h3>
+
+<p><code><a href="ReadLPJsim.html">ReadLPJsim</a></code></p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+# ReadOutputvars()
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>LPJmLmdi</em> version 1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
